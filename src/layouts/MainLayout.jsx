@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, Outlet } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { CardAlphaCompo } from "../sections/alphabet/CardAlphaCompo";
 
 export default function MainLayout() {
   const [isOpen, setIsOpen] = useState(false);
@@ -53,7 +54,8 @@ export default function MainLayout() {
 
       {/* محتوای صفحه */}
       <main className="flex-fill container border border-danger my-4">
-        <Outlet />
+        {/* <Outlet /> */}
+        <CardAlphaCompo/>
       </main>
 
       {/* فوتر */}
