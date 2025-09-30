@@ -46,7 +46,8 @@ export default function MainLayout() {
           </div>
         </nav>
         <div style={{height:"400px", opacity:"0.9"}}>
-          <img className='w-100 h-100' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCGEyismvEIGtSUYY_fmWQ98bj8W1Igw6xVw&s" alt="" />
+          {/* <img className='w-100 h-100' src="/images/webPic/ad-2.png" alt="" /> */}
+          <img className='w-100 h-100' src={`${process.env.PUBLIC_URL}/images/webPic/ad-2.png`} alt="" />
         </div>
       </header>
 
