@@ -1,6 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
+import { CardAlphaCompo } from "./sections/alphabet/CardAlphaCompo";
+import Home from "./pages/Home";
+import SectionLayout from "./layouts/SectionLayout";
 
 
 function App() {
