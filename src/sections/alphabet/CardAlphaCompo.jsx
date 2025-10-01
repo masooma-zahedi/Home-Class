@@ -1,7 +1,5 @@
 import React from "react";
 import { nanoid } from "nanoid";
-import "bootstrap/dist/css/bootstrap.min.css";
-// import "./CardAlpha.css"; // استایل اضافه
 
 export let infoCard = [
     {
