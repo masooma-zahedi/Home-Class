@@ -128,10 +128,11 @@ const BrokenGlass = () => {
             {group.category}
           </button>
         ))}
+        <button className="btn btn-success" onClick={()=>setVisiblePieces(wordsData[0].words.map(() => true))}> Reset</button>
       </div>
 
-      {/* بخش input */}
-      <div className="mb-3 text-center">
+      {/*( این بخش برای کارخانگی حذف شده به خاطر اینکه در گوشی حروف کلمات از هم جدا نمایش داده می شود. ) بخش input */}
+      {/* <div className="mb-3 text-center">
         <label className="form-label">حرف مورد نظر:</label>
         <input
           type="text"
@@ -140,7 +141,7 @@ const BrokenGlass = () => {
           value={searchLetter}
           onChange={(e) => setSearchLetter(e.target.value)}
         />
-      </div>
+      </div> */}
 
       {/* نمایش کلمات */}
       <section className="mt-5 border border-info" style={{background:"linear-gradient(135deg, #ecc079ff, #dca4b4ff)"}}>
