@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link, Outlet } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { CardAlphaCompo } from "../sections/alphabet/CardAlphaCompo";
+import Home from "../pages/Home";
 
 export default function MainLayout() {
   const [isOpen, setIsOpen] = useState(false);
@@ -55,11 +56,12 @@ export default function MainLayout() {
       {/* محتوای صفحه */}
       <main className="flex-fill container border border-danger my-4">
         {/* <Outlet /> */}
-        <CardAlphaCompo/>
+        <Home/>
+        {/* <CardAlphaCompo/> */}
       </main>
 
       {/* فوتر */}
-      <footer className="bg-success text-white text-center py-3 mt-auto">
+      <footer className="bg-success text-white text-center py-3 mt-auto" style={{position:"relative",bottom:0}}>
               <div className="container py-4">
         <div className="row">
           <div className="col-md-4 text-center px-4">
