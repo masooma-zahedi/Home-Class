@@ -30,19 +30,19 @@ export default function MainLayout() {
           <div className={`collapse navbar-collapse ${isOpen ? "show" : ""}`}>
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <Link className="nav-link" to="/" onClick={() => setIsOpen(false)}>Home</Link>
+                <Link className="nav-link" to="/Home-Class/" onClick={() => setIsOpen(false)}>Home</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/alphabet" onClick={() => setIsOpen(false)}>Alphabet</Link>
+                <Link className="nav-link" to="/Home-Class/" onClick={() => setIsOpen(false)}>Alphabet</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/word" onClick={() => setIsOpen(false)}>Word</Link>
+                <Link className="nav-link" to="/Home-Class/" onClick={() => setIsOpen(false)}>Word</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/Story" onClick={() => setIsOpen(false)}>Story</Link>
+                <Link className="nav-link" to="/Home-Class/" onClick={() => setIsOpen(false)}>Story</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/todayPlan" onClick={() => setIsOpen(false)}>TodayPlan</Link>
+                <Link className="nav-link" to="/Home-Class/" onClick={() => setIsOpen(false)}>TodayPlan</Link>
               </li>
             </ul>
           </div>
@@ -71,10 +71,10 @@ export default function MainLayout() {
           <div className="col-md-4">
             <h5>Quick Links</h5>
             <ul className="list-unstyled">
-              <li><Link className="text-white" to={'/alphabet'} >Alphabet</Link></li>
-              <li><Link className="text-white" to={'/word'} >Word</Link></li>
-              <li><Link className="text-white" to={'/story'} >Story</Link></li>
-              <li><Link className="text-white" to={'/'} >Contact</Link></li>
+              <li><Link className="text-white" to={'/Home-Class/'} >Alphabet</Link></li>
+              <li><Link className="text-white" to={'/Home-Class/'} >Word</Link></li>
+              <li><Link className="text-white" to={'/Home-Class/'} >Story</Link></li>
+              <li><Link className="text-white" to={'/Home-Class/'} >Contact</Link></li>
             </ul>
           </div>
           <div className="col-md-4">
