@@ -189,83 +189,83 @@ export let infoCard = [
         longSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-19-ص-long.jpg`,
         longSoundId:"letterSad-3"
     },
-    {
-        mainPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-14-24-ض.jpg`,
-        title:"حرف ض ",
-        picFinger:`https://www.freevector.com/uploads/vector/preview/1120/FreeVector-Beating-Heart-Graphics.jpg`,
-        examplePic:[`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/10-23-1-ض.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/10-23-2-ض.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/10-23-3-ض.png`,],
-        examplePicId:"exampleZad-1",
-        shortSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-23-11-ض.jpg`,
-        shortSoundId:"letterZad-2",
-        longSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-19-ض-long.jpg`,
-        longSoundId:"letterZad-3"
-    },
-    {
-        mainPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-14-24-ط.jpg`,
-        title:"حرف ط ",
-        picFinger:`https://www.shutterstock.com/image-vector/cute-green-parrot-cartoon-vector-260nw-2025937472.jpg`,
-        examplePic:[`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/10-23-1-ط.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/10-23-2-ط.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/10-23-3-ط.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/10-23-4-ط.png`,],
-        examplePicId:"exampleTaa-1",
-        shortSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-23-11-ط.jpg`,
-        shortSoundId:"letterTaa-2",
-        longSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-19-ط-long.jpg`,
-        longSoundId:"letterTaa-3"
-    },
-    {
-        mainPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-14-24-ظ.jpg`,
-        title:"حرف ظ ",
-        picFinger:`https://us.123rf.com/450wm/iimages/iimages1204/iimages120401865/13189260-illustration-of-utencils-on-white.jpg?ver=6`,
-        examplePic:[`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/10-23-1-ظ.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/10-23-2-ظ.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/10-23-3-ظ.png`,],
-        examplePicId:"exampleZaa-1",
-        shortSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-23-11-ظ.jpg`,
-        shortSoundId:"letterZaa-2",
-        longSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-19-ظ-long.jpg`,
-        longSoundId:"letterZaa-3"
-    },
-    {
-        mainPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-14-24-ع.jpg`,
-        title:"حرف ع ",
-        picFinger:`https://img.freepik.com/free-vector/overflowing-honey-jar-illustration_1308-177967.jpg?semt=ais_incoming&w=740&q=80`,
-        examplePic:[`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/10-23-1-ع.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/10-23-2-ع.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/10-23-3-ع.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/10-23-4-ع.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/3-04-25-ع.png`],
-        examplePicId:"exampleAin-1",
-        shortSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-23-11-ع.jpg`,
-        shortSoundId:"letterAin-2",
-        longSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-19-ع-long.jpg`,
-        longSoundId:"letterAin-3"
-    },
-    {
-        mainPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-14-24-غ.jpg`,
-        title:"حرف غ ",
-        picFinger:`https://t3.ftcdn.net/jpg/07/76/56/86/360_F_776568637_C2EpKD7PWzxBlPwMqNn4w6cmIhWDa1vX.jpg`,
-        examplePic:[`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-1-غ.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-2-غ.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-3-غ.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-4-غ.png`,],
-        examplePicId:"exampleGhain-1",
-        shortSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/11-1-1-غ.jpg`,
-        shortSoundId:"letterGhain-2",
-        longSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-19-غ-long.jpg`,
-        longSoundId:"letterGhain-3"
-    },
-    {
-        mainPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-14-24-ف.jpg`,
-        title:"حرف ف ",
-        picFinger:`https://img.freepik.com/free-photo/kids-playing-soccer-cartoon_23-2151451231.jpg?semt=ais_incoming&w=740&q=80`,
-        examplePic:[`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-1-ف.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-2-ف.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-3-ف.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-4-ف.png`,],
-        examplePicId:"exampleFa-1",
-        shortSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/11-05-2-ف-short.jpg`,
-        shortSoundId:"letterFa-2",
-        longSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-19-ف-long.jpg`,
-        longSoundId:"letterFa-3"
-    },
-    {
-        mainPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-14-24-ق.jpg`,
-        title:"حرف ق ",
-        picFinger:`https://thumbs.dreamstime.com/b/cartoon-sailboat-9377784.jpg`,
-        examplePic:[`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-1-ق.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-2-ق.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-3-ق.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-4-ق.png`,],
-        examplePicId:"exampleGhaf-1",
-        shortSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/11-05-3-ق-short.jpg`,
-        shortSoundId:"letterGhaf-2",
-        longSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-19-ق-long.jpg`,
-        longSoundId:"letterGhaf-3"
-    },
+    // {
+    //     mainPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-14-24-ض.jpg`,
+    //     title:"حرف ض ",
+    //     picFinger:`https://www.freevector.com/uploads/vector/preview/1120/FreeVector-Beating-Heart-Graphics.jpg`,
+    //     examplePic:[`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/10-23-1-ض.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/10-23-2-ض.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/10-23-3-ض.png`,],
+    //     examplePicId:"exampleZad-1",
+    //     shortSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-23-11-ض.jpg`,
+    //     shortSoundId:"letterZad-2",
+    //     longSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-19-ض-long.jpg`,
+    //     longSoundId:"letterZad-3"
+    // },
+    // {
+    //     mainPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-14-24-ط.jpg`,
+    //     title:"حرف ط ",
+    //     picFinger:`https://www.shutterstock.com/image-vector/cute-green-parrot-cartoon-vector-260nw-2025937472.jpg`,
+    //     examplePic:[`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/10-23-1-ط.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/10-23-2-ط.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/10-23-3-ط.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/10-23-4-ط.png`,],
+    //     examplePicId:"exampleTaa-1",
+    //     shortSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-23-11-ط.jpg`,
+    //     shortSoundId:"letterTaa-2",
+    //     longSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-19-ط-long.jpg`,
+    //     longSoundId:"letterTaa-3"
+    // },
+    // {
+    //     mainPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-14-24-ظ.jpg`,
+    //     title:"حرف ظ ",
+    //     picFinger:`https://us.123rf.com/450wm/iimages/iimages1204/iimages120401865/13189260-illustration-of-utencils-on-white.jpg?ver=6`,
+    //     examplePic:[`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/10-23-1-ظ.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/10-23-2-ظ.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/10-23-3-ظ.png`,],
+    //     examplePicId:"exampleZaa-1",
+    //     shortSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-23-11-ظ.jpg`,
+    //     shortSoundId:"letterZaa-2",
+    //     longSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-19-ظ-long.jpg`,
+    //     longSoundId:"letterZaa-3"
+    // },
+    // {
+    //     mainPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-14-24-ع.jpg`,
+    //     title:"حرف ع ",
+    //     picFinger:`https://img.freepik.com/free-vector/overflowing-honey-jar-illustration_1308-177967.jpg?semt=ais_incoming&w=740&q=80`,
+    //     examplePic:[`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/10-23-1-ع.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/10-23-2-ع.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/10-23-3-ع.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/10-23-4-ع.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/3-04-25-ع.png`],
+    //     examplePicId:"exampleAin-1",
+    //     shortSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-23-11-ع.jpg`,
+    //     shortSoundId:"letterAin-2",
+    //     longSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-19-ع-long.jpg`,
+    //     longSoundId:"letterAin-3"
+    // },
+    // {
+    //     mainPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-14-24-غ.jpg`,
+    //     title:"حرف غ ",
+    //     picFinger:`https://t3.ftcdn.net/jpg/07/76/56/86/360_F_776568637_C2EpKD7PWzxBlPwMqNn4w6cmIhWDa1vX.jpg`,
+    //     examplePic:[`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-1-غ.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-2-غ.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-3-غ.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-4-غ.png`,],
+    //     examplePicId:"exampleGhain-1",
+    //     shortSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/11-1-1-غ.jpg`,
+    //     shortSoundId:"letterGhain-2",
+    //     longSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-19-غ-long.jpg`,
+    //     longSoundId:"letterGhain-3"
+    // },
+    // {
+    //     mainPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-14-24-ف.jpg`,
+    //     title:"حرف ف ",
+    //     picFinger:`https://img.freepik.com/free-photo/kids-playing-soccer-cartoon_23-2151451231.jpg?semt=ais_incoming&w=740&q=80`,
+    //     examplePic:[`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-1-ف.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-2-ف.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-3-ف.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-4-ف.png`,],
+    //     examplePicId:"exampleFa-1",
+    //     shortSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/11-05-2-ف-short.jpg`,
+    //     shortSoundId:"letterFa-2",
+    //     longSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-19-ف-long.jpg`,
+    //     longSoundId:"letterFa-3"
+    // },
+    // {
+    //     mainPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-14-24-ق.jpg`,
+    //     title:"حرف ق ",
+    //     picFinger:`https://thumbs.dreamstime.com/b/cartoon-sailboat-9377784.jpg`,
+    //     examplePic:[`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-1-ق.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-2-ق.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-3-ق.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-4-ق.png`,],
+    //     examplePicId:"exampleGhaf-1",
+    //     shortSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/11-05-3-ق-short.jpg`,
+    //     shortSoundId:"letterGhaf-2",
+    //     longSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-19-ق-long.jpg`,
+    //     longSoundId:"letterGhaf-3"
+    // },
     {
         mainPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-14-24-ک.jpg`,
         title:"حرف ک ",
@@ -288,17 +288,17 @@ export let infoCard = [
         longSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-19-گ-long.jpg`,
         longSoundId:"letterGaf-3"
     },
-    {
-        mainPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-14-24-ل.jpg`,
-        title:"حرف ل ",
-        picFinger:`https://cdn.vectorstock.com/i/500p/27/07/adorable-sea-turtle-cartoon-vector-56082707.jpg`,
-        examplePic:[`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-1-ل.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-2-ل.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-3-ل.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-4-ل.png`,],
-        examplePicId:"exampleLam-1",
-        shortSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/11-05-6-ل-short.jpg`,
-        shortSoundId:"letterLam-2",
-        longSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-19-ل-long.jpg`,
-        longSoundId:"letterLam-3"
-    },
+    // {
+    //     mainPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-14-24-ل.jpg`,
+    //     title:"حرف ل ",
+    //     picFinger:`https://cdn.vectorstock.com/i/500p/27/07/adorable-sea-turtle-cartoon-vector-56082707.jpg`,
+    //     examplePic:[`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-1-ل.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-2-ل.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-3-ل.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-4-ل.png`,],
+    //     examplePicId:"exampleLam-1",
+    //     shortSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/11-05-6-ل-short.jpg`,
+    //     shortSoundId:"letterLam-2",
+    //     longSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-19-ل-long.jpg`,
+    //     longSoundId:"letterLam-3"
+    // },
     {
         mainPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-14-24-م.jpg`,
         title:"حرف م ",
@@ -321,39 +321,39 @@ export let infoCard = [
         longSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-19-ن-long.jpg`,
         longSoundId:"letterNoon-3"
     },
-    {
-        mainPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-14-24-ه.jpg`,
-        title:"حرف ه ",
-        picFinger:`https://static.vecteezy.com/system/resources/thumbnails/003/697/705/small/airplane-cartoon-sticker-on-white-background-free-vector.jpg`,
-        examplePic:[`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-1-ه.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-2-ه.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-3-ه.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-4-ه.png`,],
-        examplePicId:"exampleHaa-1",
-        shortSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/11-05-10-ه-short.jpg`,
-        shortSoundId:"letterHaa-2",
-        longSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-19-ه-long.jpg`,
-        longSoundId:"letterHaa-3"
-    },
-    {
-        mainPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-14-24-و.jpg`,
-        title:"حرف و ",
-        picFinger:`https://thumbs.dreamstime.com/b/cartoon-illustration-violin-musical-notes-watercolor-paint-white-background-graphic-element-depicts-orchestra-string-367411821.jpg`,
-        examplePic:[`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-1-و.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-2-و.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-3-و.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-4-و.png`,],
-        examplePicId:"exampleWaw-1",
-        shortSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/11-05-9-و-short.jpg`,
-        shortSoundId:"letterWaw-2",
-        longSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-19-و-long.jpg`,
-        longSoundId:"letterWaw-3"
-    },
-    {
-        mainPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-14-24-ی.jpg`,
-        title:"حرف ی ",
-        picFinger:`https://png.pngtree.com/png-clipart/20241121/original/pngtree-vector-material-cartoon-refrigerator-open-download-png-image_17276433.png`,
-        examplePic:[`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-1-ی.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-2-ی.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-3-ی.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-4-ی.png`,],
-        examplePicId:"exampleYaa-1",
-        shortSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/11-05-11-ی-short.jpg`,
-        shortSoundId:"letterYaa-2",
-        longSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-19-ی-long.jpg`,
-        longSoundId:"letterYaa-3"
-    },
+    // {
+    //     mainPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-14-24-ه.jpg`,
+    //     title:"حرف ه ",
+    //     picFinger:`https://static.vecteezy.com/system/resources/thumbnails/003/697/705/small/airplane-cartoon-sticker-on-white-background-free-vector.jpg`,
+    //     examplePic:[`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-1-ه.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-2-ه.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-3-ه.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-4-ه.png`,],
+    //     examplePicId:"exampleHaa-1",
+    //     shortSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/11-05-10-ه-short.jpg`,
+    //     shortSoundId:"letterHaa-2",
+    //     longSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-19-ه-long.jpg`,
+    //     longSoundId:"letterHaa-3"
+    // },
+    // {
+    //     mainPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-14-24-و.jpg`,
+    //     title:"حرف و ",
+    //     picFinger:`https://thumbs.dreamstime.com/b/cartoon-illustration-violin-musical-notes-watercolor-paint-white-background-graphic-element-depicts-orchestra-string-367411821.jpg`,
+    //     examplePic:[`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-1-و.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-2-و.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-3-و.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-4-و.png`,],
+    //     examplePicId:"exampleWaw-1",
+    //     shortSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/11-05-9-و-short.jpg`,
+    //     shortSoundId:"letterWaw-2",
+    //     longSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-19-و-long.jpg`,
+    //     longSoundId:"letterWaw-3"
+    // },
+    // {
+    //     mainPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-14-24-ی.jpg`,
+    //     title:"حرف ی ",
+    //     picFinger:`https://png.pngtree.com/png-clipart/20241121/original/pngtree-vector-material-cartoon-refrigerator-open-download-png-image_17276433.png`,
+    //     examplePic:[`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-1-ی.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-2-ی.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-3-ی.png`,`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/exampleAlpha/11-1-4-ی.png`,],
+    //     examplePicId:"exampleYaa-1",
+    //     shortSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/11-05-11-ی-short.jpg`,
+    //     shortSoundId:"letterYaa-2",
+    //     longSoundPic:`${process.env.PUBLIC_URL}/images/assetAlpha/cardAlpha/10-19-ی-long.jpg`,
+    //     longSoundId:"letterYaa-3"
+    // },
 
 ]
 
