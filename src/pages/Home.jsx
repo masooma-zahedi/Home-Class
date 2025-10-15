@@ -6,7 +6,7 @@ import StoryPage3 from "../sections/story/StoryPage3";
 export default function Home() {
   return (<>
     <CardAlphaCompo/> 
-    {/* <BrokenGlass/> */}
-    <StoryPage3 groupKey="alefba" wantedTitle="مَن وَ ماکارونی" />
+    <BrokenGlass/>
+    {/* <StoryPage3 groupKey="alefba" wantedTitle="سوپِ داغ" /> */}
   </>)
 }
