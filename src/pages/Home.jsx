@@ -2,11 +2,13 @@ import React from "react";
 import { CardAlphaCompo } from "../sections/alphabet/CardAlphaCompo";
 import BrokenGlass from "../sections/alphabet/BrokenGlass";
 import StoryPage3 from "../sections/story/StoryPage3";
+import DragDropQuiz from "../sections/word/DragDropQuiz";
 
 export default function Home() {
   return (<>
     <CardAlphaCompo/> 
     <BrokenGlass/>
-    {/* <StoryPage3 groupKey="alefba" wantedTitle="سوپِ داغ" /> */}
+    <StoryPage3 groupKey="alefba" wantedTitle="سوپِ داغ" />
+    {/* <DragDropQuiz/> */}
   </>)
 }
