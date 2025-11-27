@@ -7,6 +7,7 @@ import BouncingBalls from "../sections/alphabet/BouncingBalls";
 import ObjectSentenceGame from "../sections/alphabet/ObjectSentenceGame";
 import WordFlipBox from "../sections/alphabet/WordFlipBox";
 import VideoCard from "../sections/alphabet/VideoCard";
+import DragWriteBoxWithGuides from "../sections/alphabet/DragWriteBoxWithGuides ";
 
 export default function Home() {
   return (<>
@@ -21,9 +22,12 @@ export default function Home() {
     {/* <ObjectSentenceGame/> */}
     {/* <BouncingBalls/> */}
     {/* <BrokenGlass/> */}
+    <div className="container  mt-4" dir="rtl">
+      <DragWriteBoxWithGuides width={840} height={520} showGuides={true} downloadName="persian_practice.png" textTitle="آیلین و سِتایِش هَر روز به مَدرِسه می روند."/>
+    </div>
+
     <StoryPage3 groupKey="alefba" wantedTitle="گُلدانِ نازنین" />
     <CardAlphaCompo/> 
     {/* <DragDropQuiz/> */}
-
   </>)
 }
