@@ -11,8 +11,9 @@ import DragWriteBoxWithGuides from "../sections/alphabet/DragWriteBoxWithGuides 
 
 export default function Home() {
   return (<>
-  <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #772245"}}>بچه ها فیلم زیر را ببینند و فارسی آن را یاد بگیرند. داستان را دو خط اول را خواندیم ، آن را بخوانند .</h4>
+  <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #772245"}}>بچه ها حرف ض را یاد گرفتند و کلمات حرف ه را خواندیم . از روی کلمات 15 تا را بنویسند .</h4>
       {/* <WordFlipBox/> */}
+    <BrokenGlass/>
       <VideoCard
         title="قصه کوتاه امروز"
         description="متن فارسی داستان زیر را بخوانید."
@@ -21,7 +22,6 @@ export default function Home() {
 
     {/* <ObjectSentenceGame/> */}
     {/* <BouncingBalls/> */}
-    {/* <BrokenGlass/> */}
     <div className="container  mt-4" dir="rtl">
       <DragWriteBoxWithGuides width={840} height={520} showGuides={true} downloadName="persian_practice.png" textTitle="آیلین و سِتایِش هَر روز به مَدرِسه می روند."/>
     </div>
