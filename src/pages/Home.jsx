@@ -9,6 +9,7 @@ import WordFlipBox from "../sections/alphabet/WordFlipBox";
 import VideoCard from "../sections/alphabet/VideoCard";
 import DragWriteBoxWithGuides from "../sections/alphabet/DragWriteBoxWithGuides ";
 import MatchingLettersPicturs from "../sections/alphabet/MatchingLettersPicturs";
+import { SylabeWords } from "../sections/alphabet/SylabeWords";
 
 export default function Home() {
   return (<>
@@ -22,6 +23,7 @@ export default function Home() {
         videoFileName={`${process.env.PUBLIC_URL}/video/bigThings.mp4`}  // فقط اسم فایل ویدیوی mp4
       /> */}
     <MatchingLettersPicturs/>
+    <SylabeWords/>
     <StoryPage3 groupKey="alefba" wantedTitle="گُلدانِ نازنین" />
     {/* <ObjectSentenceGame/> */}
     {/* <BouncingBalls/> */}
