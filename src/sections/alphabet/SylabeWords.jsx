@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import "animate.css";
+import "animate.css";
 import { nanoid } from "nanoid";
 
 export const SylabeWords = () => {
