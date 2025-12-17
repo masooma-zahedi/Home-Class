@@ -10,12 +10,13 @@ import VideoCard from "../sections/alphabet/VideoCard";
 import DragWriteBoxWithGuides from "../sections/alphabet/DragWriteBoxWithGuides ";
 import MatchingLettersPicturs from "../sections/alphabet/MatchingLettersPicturs";
 import { SylabeWords } from "../sections/alphabet/SylabeWords";
+import WordGameWithCategories from "../sections/alphabet/WordGameWithCategories";
 
 export default function Home() {
   return (<>
-  <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #1a9957ff"}}>بچه ها داستان را تا بالای عکس بخوانند و بنویسند .</h4>
+  <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #1a2099ff"}}>بچه هاداستان را یک بار برای شما بخوانند و از روی کلمات زیر یک بار با معنی انگلیسی آن بنویسند .</h4>
       {/* <WordFlipBox/> */}
-
+    <WordGameWithCategories initialCategory="زمستان" />
     {/* <BrokenGlass/> */}
       {/* <VideoCard
         title="قصه کوتاه امروز"
@@ -27,9 +28,9 @@ export default function Home() {
     <StoryPage3 groupKey="alefba" wantedTitle="بازی در بَرف" />
     {/* <ObjectSentenceGame/> */}
     {/* <BouncingBalls/> */}
-    <div className="container  mt-4" dir="rtl">
+    {/* <div className="container  mt-4" dir="rtl">
       <DragWriteBoxWithGuides width={840} height={520} showGuides={true} downloadName="persian_practice.png" textTitle="آیلین و سِتایِش هَر روز با هَم بازی می کُنَند."/>
-    </div>
+    </div> */}
 
     <CardAlphaCompo/> 
     {/* <DragDropQuiz/> */}
