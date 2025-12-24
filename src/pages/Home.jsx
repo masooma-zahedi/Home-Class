@@ -14,9 +14,11 @@ import WordGameWithCategories from "../sections/alphabet/WordGameWithCategories"
 
 export default function Home() {
   return (<>
-  <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #1a2099ff"}}>بچه هاداستان را یک بار برای شما بخوانند و از روی کلمات زیر یک بار با معنی انگلیسی آن بنویسند .</h4>
-      {/* <WordFlipBox/> */}
-    <WordGameWithCategories initialCategory="زمستان" />
+  <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #1a2099ff"}}>بچه ها فعالیت زیر را انجام دهند و از روی شش  جمله درست آن بنویسند. کلمات مربوط به حرف ط را هم بخوانند .</h4>
+      <ObjectSentenceGame/>
+
+      <WordFlipBox/>
+    {/* <WordGameWithCategories initialCategory="زمستان" /> */}
     {/* <BrokenGlass/> */}
       {/* <VideoCard
         title="قصه کوتاه امروز"
@@ -25,8 +27,7 @@ export default function Home() {
       /> */}
     {/* <MatchingLettersPicturs/> */}
     {/* <SylabeWords/> */}
-    <StoryPage3 groupKey="alefba" wantedTitle="بازی در بَرف" />
-    {/* <ObjectSentenceGame/> */}
+    {/* <StoryPage3 groupKey="alefba" wantedTitle="بازی در بَرف" /> */}
     {/* <BouncingBalls/> */}
     {/* <div className="container  mt-4" dir="rtl">
       <DragWriteBoxWithGuides width={840} height={520} showGuides={true} downloadName="persian_practice.png" textTitle="آیلین و سِتایِش هَر روز با هَم بازی می کُنَند."/>
