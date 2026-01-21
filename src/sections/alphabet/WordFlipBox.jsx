@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 
 const wordCategories = {
-  "حرف ط":["طَلا","طُوطی","طَبَق","نُقطِه","سَطح","طِفل","طَبل","باطِل","طُرُق",],
+  "حرف غ":["غَذا","باغ","غُرور","غُروب","غار","غَریب","غُرِش","غَضَب","باغدار",],
 };
 
 const getRandomColor = () => {
@@ -10,7 +10,7 @@ const getRandomColor = () => {
 };
 
 const WordFlipBox = () => {
-  const [selectedCategory, setSelectedCategory] = useState('حرف ط');
+  const [selectedCategory, setSelectedCategory] = useState('حرف غ');
   const [words, setWords] = useState(wordCategories[selectedCategory]);
   const [currentWord, setCurrentWord] = useState('');
   const [isSpinning, setIsSpinning] = useState(true);

@@ -14,21 +14,21 @@ import WordGameWithCategories from "../sections/alphabet/WordGameWithCategories"
 
 export default function Home() {
   return (<>
-  <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #1a2099ff"}}>بچه ها کلمات و جملات زیر را بخوانند و از روی 10 کلمه آن بنویسند .</h4>
+  <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #1a2099ff"}}>بچه ها حرف غ را یاد گرفتند و از روی کلمات غ بخوانند. داستان را بخوانند و از روی آن یکبار بنویسند .</h4>
       {/* <ObjectSentenceGame/> */}
 
-      {/* <WordFlipBox/> */}
+      <WordFlipBox/>
     {/* <WordGameWithCategories initialCategory="زمستان" /> */}
-        <SylabeWords/>
-      <VideoCard
+        {/* <SylabeWords/> */}
+      {/* <VideoCard
         title="قصه کوتاه امروز"
         description="متن فارسی داستان زیر را بخوانید."
         videoFileName={`${process.env.PUBLIC_URL}/video/big&big.mp4`}  // فقط اسم فایل ویدیوی mp4
-      />
+      /> */}
     {/* <MatchingLettersPicturs/> */}
     {/* <BrokenGlass/> */}
     {/* <BouncingBalls/> */}
-    {/* <StoryPage3 groupKey="alefba" wantedTitle="اُمید و ظَرفِ غَذا" /> */}
+    <StoryPage3 groupKey="alefba" wantedTitle="گُربه وَ باد-1" />
 
     {/* <div className="container  mt-4" dir="rtl">
       <DragWriteBoxWithGuides width={840} height={520} showGuides={true} downloadName="persian_practice.png" textTitle="آیلین و سِتایِش هَر روز با هَم بازی می کُنَند."/>
