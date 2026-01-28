@@ -11,13 +11,15 @@ import DragWriteBoxWithGuides from "../sections/alphabet/DragWriteBoxWithGuides 
 import MatchingLettersPicturs from "../sections/alphabet/MatchingLettersPicturs";
 import { SylabeWords } from "../sections/alphabet/SylabeWords";
 import WordGameWithCategories from "../sections/alphabet/WordGameWithCategories";
+import SentenceObject from "../sections/word/SentenceObject";
 
 export default function Home() {
   return (<>
-  <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #1a2099ff"}}>بچه ها حرف غ را یاد گرفتند و از روی کلمات غ بخوانند. داستان را بخوانند و از روی آن یکبار بنویسند .</h4>
+  <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #1a2099ff"}}>بچه ها جملات زیر را بخوانند معنی کلمات جدید را یاد بگیرند و از روی 6 جمله آن بنویسند .</h4>
       {/* <ObjectSentenceGame/> */}
+      <SentenceObject/>
 
-      <WordFlipBox/>
+      {/* <WordFlipBox/> */}
     {/* <WordGameWithCategories initialCategory="زمستان" /> */}
         {/* <SylabeWords/> */}
       {/* <VideoCard
@@ -28,7 +30,7 @@ export default function Home() {
     {/* <MatchingLettersPicturs/> */}
     {/* <BrokenGlass/> */}
     {/* <BouncingBalls/> */}
-    <StoryPage3 groupKey="alefba" wantedTitle="گُربه وَ باد-1" />
+    {/* <StoryPage3 groupKey="alefba" wantedTitle="گُربه وَ باد-1" /> */}
 
     {/* <div className="container  mt-4" dir="rtl">
       <DragWriteBoxWithGuides width={840} height={520} showGuides={true} downloadName="persian_practice.png" textTitle="آیلین و سِتایِش هَر روز با هَم بازی می کُنَند."/>
