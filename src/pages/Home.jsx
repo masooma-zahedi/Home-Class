@@ -15,7 +15,7 @@ import SentenceObject from "../sections/word/SentenceObject";
 
 export default function Home() {
   return (<>
-  <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #1a2099ff"}}>بچه ها حرف "و" را یاد گرفتند. از روی کلمات حرف "و" یک بار بنویسند و داستان را تا بالای عکس خواندیم فقط این قسمت را بخوانند .</h4>
+  <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #1a2099ff"}}>بچه ها از روی داستان زیر بخوانند و معنی کلمات را یاد بگیرند و تا بالای عکس از روی داستان بنویسند .</h4>
       {/* <ObjectSentenceGame/> */}
       {/* <SentenceObject/> */}
 
@@ -28,9 +28,9 @@ export default function Home() {
         videoFileName={`${process.env.PUBLIC_URL}/video/big&big.mp4`}  // فقط اسم فایل ویدیوی mp4
       /> */}
     {/* <MatchingLettersPicturs/> */}
-    <BrokenGlass/>
+    {/* <BrokenGlass/> */}
     {/* <BouncingBalls/> */}
-    <StoryPage3 groupKey="alefba" wantedTitle="طوفانِ بُزرگ" />
+    <StoryPage3 groupKey="alefba" wantedTitle="مِهمانیِ شادی" />
 
     {/* <div className="container  mt-4" dir="rtl">
       <DragWriteBoxWithGuides width={840} height={520} showGuides={true} downloadName="persian_practice.png" textTitle="آیلین و سِتایِش هَر روز با هَم بازی می کُنَند."/>
