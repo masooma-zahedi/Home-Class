@@ -15,7 +15,7 @@ import SentenceObject from "../sections/word/SentenceObject";
 
 export default function Home() {
   return (<>
-  <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #1a2099ff"}}>بچه ها از روی داستان زیر بخوانند و معنی کلمات را یاد بگیرند و قسمت پایین عکس داستان را بنویسند .</h4>
+  <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #1a2099ff"}}>بچه ها حرف ی را یاد گرفتند. از روی داستان زیر بخوانند و معنی کلمات را یاد بگیرند و قسمت پایین عکس داستان را بنویسند .</h4>
       {/* <ObjectSentenceGame/> */}
       {/* <SentenceObject/> */}
 
