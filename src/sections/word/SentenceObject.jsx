@@ -29,234 +29,234 @@ const createNewData = (dataArray = []) => {
 
 const lessonGroups = [
   // جلمات صبحانه
-    {
-    title: " صُبحانِه ",
-    imgSide:"/images/assetWord/girlSitting.png",
-    slides: [
-        {
-        sentence: "مَن صُبحانِه خوردَم.",
-        words: [
-            { text: "صُبحانِه", pronunciation: "sobhāne", image: "https://cdn.vectorstock.com/i/1000v/83/83/delicious-tasty-breakfast-cartoon-vector-24468383.jpg", translation: "Breakfast" },
-        ]
-        },
-        {
-        sentence: "مَن نان و پَنیر دوست دارَم.",
-        words: [
-            { text: "نان", pronunciation: "nān", image: "https://cdn.vectorstock.com/i/1000v/53/07/thanksgiving-baked-bread-cartoon-colored-clipart-vector-43185307.jpg", translation: "Bread" },
-            { text: "پَنیر", pronunciation: "panir", image: "https://img.freepik.com/premium-vector/cartoon-drawing-cheese-with-face-it_602454-7870.jpg", translation: "Cheese" },
-        ]
-        },
-        {
-        sentence: "صُبحانِه‌اَم شیر و عَسَل بود.",
-        words: [
-            { text: "صُبحانِه‌", pronunciation: "sobhāne'am", image: "https://cdn.vectorstock.com/i/1000v/83/83/delicious-tasty-breakfast-cartoon-vector-24468383.jpg", translation: "My breakfast" },
-            { text: "شیر", pronunciation: "shir", image: "https://cbx-prod.b-cdn.net/COLOURBOX62417729.jpg?width=800&height=800&quality=70", translation: "Milk" },
-            { text: "عَسل", pronunciation: "asal", image: "https://static.vecteezy.com/system/resources/previews/017/219/938/non_2x/cartoon-cute-bee-carrying-honey-dipper-to-take-honey-from-honey-pot-bee-character-illustration-png.png", translation: "Honey" },
-        ]
-        },
-        {
-        sentence: "مادَر برایَم تُخم‌مُرغ پُخت.",
-        words: [
-            { text: "تَخم‌مُرغ", pronunciation: "tokhm-e morgh", image:"https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://media.easy-peasy.ai/509fefb5-bf9c-42d5-934a-0425d8612e11/eadbd16b-14a1-4191-809e-34232364e071.png" , translation: "Egg" },
-        ]
-        },
-        {
-        sentence: "مَن با خواهَرَم صُبحانِه خوردم.",
-        words: [
-        ]
-        },
-        {
-        sentence: "صُبح زود چای خوردَم.",
-        words: [
-            { text: "چای", pronunciation: "chāy", image: "https://img.freepik.com/premium-vector/cartoon-illustration-cup-tea-with-smiley-face_180868-3002.jpg?w=360", translation: "Tea" },
-        ]
-        },
-        {
-        sentence: "دوست دارم نان و مُرَبا بُخورَم.",
-        words: [
-            { text: "نان", pronunciation: "nān", image: "https://cdn.vectorstock.com/i/1000v/53/07/thanksgiving-baked-bread-cartoon-colored-clipart-vector-43185307.jpg", translation: "Bread" },
-            { text: "مُرَبا", pronunciation: "marbā", image: "https://icon2.cleanpng.com/ci2/gzz/iut/aqru265v3.webp", translation: "Jam" },
-        ]
-        },
-        {
-        sentence: "صُبحانِه مُهم اَست.",
-        words: [
-        ]
-        },
-        {
-        sentence: "بابا نان خَرید.",
-        words: [
-            { text: "نان", pronunciation: "nān", image: "https://cdn.vectorstock.com/i/1000v/53/07/thanksgiving-baked-bread-cartoon-colored-clipart-vector-43185307.jpg", translation: "Bread" },
-        ]
-        },
-        {
-        sentence: "مَن خُرما و شیر دوست دارَم.",
-        words: [
-            { text: "خُرما", pronunciation: "kharmā", image: "https://img.freepik.com/premium-photo/dates-2d-vector-illustration-cartoon-white-background-h_889056-22146.jpg", translation: "Date" },
-            { text: "شیر", pronunciation: "shir", image: "https://cbx-prod.b-cdn.net/COLOURBOX62417729.jpg?width=800&height=800&quality=70", translation: "Milk" },
-        ]
-        },
-        {
-        sentence: "هَر روز صُبح شیر می‌نوشَم.",
-        words: [
-            { text: "شیر", pronunciation: "shir", image: "https://cbx-prod.b-cdn.net/COLOURBOX62417729.jpg?width=800&height=800&quality=70", translation: "Milk" },
-        ]
-        },
-        {
-        sentence: "بیسکُویت و ماست خوردَم.",
-        words: [
-            { text: "بیسکُویت", pronunciation: "biskuit", image: "https://i.pinimg.com/736x/bb/7c/29/bb7c293a568df9297ba03933f50380f0.jpg", translation: "Biscuit" },
-            { text: "ماست", pronunciation: "māst", image: "https://www.shutterstock.com/image-vector/spoon-yogurt-vector-illustration-600nw-1396014698.jpg", translation: "Yogurt" },
-        ]
-        },
-        {
-        sentence: "مَن با دوست‌هایَم صُبحانِه خوردَم.",
-        words: [
-            { text: "صُبحانِه", pronunciation: "sobhāne", image: "https://cdn.vectorstock.com/i/1000v/83/83/delicious-tasty-breakfast-cartoon-vector-24468383.jpg", translation: "Breakfast" },
-        ]
-        },
-        {
-        sentence: "صُبحانِه‌اَم خُوشمَزه بود.",
-        words: [
-        ]
-        },
-        {
-        sentence: "اِمروز کَره وَ عَسَل خوردَم.",
-        words: [
-            { text: "کَرِه", pronunciation: "koreh", image: "https://thumbs.dreamstime.com/z/cartoon-butter-cutting-board-margarine-spread-natural-dairy-product-vector-brick-wooden-high-calorie-food-cooking-225918083.jpg", translation: "Butter" },
-            { text: "عَسَل", pronunciation: "asal", image: "https://t4.ftcdn.net/jpg/06/12/86/49/360_F_612864989_v6TrLkbttR4sjm9vj7bMvtTxO7Xw4ZXY.jpg", translation: "Honey" },
-        ]
-        }
-    ]
-    },
+    // {
+    // title: " صُبحانِه ",
+    // imgSide:"/images/assetWord/girlSitting.png",
+    // slides: [
+    //     {
+    //     sentence: "مَن صُبحانِه خوردَم.",
+    //     words: [
+    //         { text: "صُبحانِه", pronunciation: "sobhāne", image: "https://cdn.vectorstock.com/i/1000v/83/83/delicious-tasty-breakfast-cartoon-vector-24468383.jpg", translation: "Breakfast" },
+    //     ]
+    //     },
+    //     {
+    //     sentence: "مَن نان و پَنیر دوست دارَم.",
+    //     words: [
+    //         { text: "نان", pronunciation: "nān", image: "https://cdn.vectorstock.com/i/1000v/53/07/thanksgiving-baked-bread-cartoon-colored-clipart-vector-43185307.jpg", translation: "Bread" },
+    //         { text: "پَنیر", pronunciation: "panir", image: "https://img.freepik.com/premium-vector/cartoon-drawing-cheese-with-face-it_602454-7870.jpg", translation: "Cheese" },
+    //     ]
+    //     },
+    //     {
+    //     sentence: "صُبحانِه‌اَم شیر و عَسَل بود.",
+    //     words: [
+    //         { text: "صُبحانِه‌", pronunciation: "sobhāne'am", image: "https://cdn.vectorstock.com/i/1000v/83/83/delicious-tasty-breakfast-cartoon-vector-24468383.jpg", translation: "My breakfast" },
+    //         { text: "شیر", pronunciation: "shir", image: "https://cbx-prod.b-cdn.net/COLOURBOX62417729.jpg?width=800&height=800&quality=70", translation: "Milk" },
+    //         { text: "عَسل", pronunciation: "asal", image: "https://static.vecteezy.com/system/resources/previews/017/219/938/non_2x/cartoon-cute-bee-carrying-honey-dipper-to-take-honey-from-honey-pot-bee-character-illustration-png.png", translation: "Honey" },
+    //     ]
+    //     },
+    //     {
+    //     sentence: "مادَر برایَم تُخم‌مُرغ پُخت.",
+    //     words: [
+    //         { text: "تَخم‌مُرغ", pronunciation: "tokhm-e morgh", image:"https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://media.easy-peasy.ai/509fefb5-bf9c-42d5-934a-0425d8612e11/eadbd16b-14a1-4191-809e-34232364e071.png" , translation: "Egg" },
+    //     ]
+    //     },
+    //     {
+    //     sentence: "مَن با خواهَرَم صُبحانِه خوردم.",
+    //     words: [
+    //     ]
+    //     },
+    //     {
+    //     sentence: "صُبح زود چای خوردَم.",
+    //     words: [
+    //         { text: "چای", pronunciation: "chāy", image: "https://img.freepik.com/premium-vector/cartoon-illustration-cup-tea-with-smiley-face_180868-3002.jpg?w=360", translation: "Tea" },
+    //     ]
+    //     },
+    //     {
+    //     sentence: "دوست دارم نان و مُرَبا بُخورَم.",
+    //     words: [
+    //         { text: "نان", pronunciation: "nān", image: "https://cdn.vectorstock.com/i/1000v/53/07/thanksgiving-baked-bread-cartoon-colored-clipart-vector-43185307.jpg", translation: "Bread" },
+    //         { text: "مُرَبا", pronunciation: "marbā", image: "https://icon2.cleanpng.com/ci2/gzz/iut/aqru265v3.webp", translation: "Jam" },
+    //     ]
+    //     },
+    //     {
+    //     sentence: "صُبحانِه مُهم اَست.",
+    //     words: [
+    //     ]
+    //     },
+    //     {
+    //     sentence: "بابا نان خَرید.",
+    //     words: [
+    //         { text: "نان", pronunciation: "nān", image: "https://cdn.vectorstock.com/i/1000v/53/07/thanksgiving-baked-bread-cartoon-colored-clipart-vector-43185307.jpg", translation: "Bread" },
+    //     ]
+    //     },
+    //     {
+    //     sentence: "مَن خُرما و شیر دوست دارَم.",
+    //     words: [
+    //         { text: "خُرما", pronunciation: "kharmā", image: "https://img.freepik.com/premium-photo/dates-2d-vector-illustration-cartoon-white-background-h_889056-22146.jpg", translation: "Date" },
+    //         { text: "شیر", pronunciation: "shir", image: "https://cbx-prod.b-cdn.net/COLOURBOX62417729.jpg?width=800&height=800&quality=70", translation: "Milk" },
+    //     ]
+    //     },
+    //     {
+    //     sentence: "هَر روز صُبح شیر می‌نوشَم.",
+    //     words: [
+    //         { text: "شیر", pronunciation: "shir", image: "https://cbx-prod.b-cdn.net/COLOURBOX62417729.jpg?width=800&height=800&quality=70", translation: "Milk" },
+    //     ]
+    //     },
+    //     {
+    //     sentence: "بیسکُویت و ماست خوردَم.",
+    //     words: [
+    //         { text: "بیسکُویت", pronunciation: "biskuit", image: "https://i.pinimg.com/736x/bb/7c/29/bb7c293a568df9297ba03933f50380f0.jpg", translation: "Biscuit" },
+    //         { text: "ماست", pronunciation: "māst", image: "https://www.shutterstock.com/image-vector/spoon-yogurt-vector-illustration-600nw-1396014698.jpg", translation: "Yogurt" },
+    //     ]
+    //     },
+    //     {
+    //     sentence: "مَن با دوست‌هایَم صُبحانِه خوردَم.",
+    //     words: [
+    //         { text: "صُبحانِه", pronunciation: "sobhāne", image: "https://cdn.vectorstock.com/i/1000v/83/83/delicious-tasty-breakfast-cartoon-vector-24468383.jpg", translation: "Breakfast" },
+    //     ]
+    //     },
+    //     {
+    //     sentence: "صُبحانِه‌اَم خُوشمَزه بود.",
+    //     words: [
+    //     ]
+    //     },
+    //     {
+    //     sentence: "اِمروز کَره وَ عَسَل خوردَم.",
+    //     words: [
+    //         { text: "کَرِه", pronunciation: "koreh", image: "https://thumbs.dreamstime.com/z/cartoon-butter-cutting-board-margarine-spread-natural-dairy-product-vector-brick-wooden-high-calorie-food-cooking-225918083.jpg", translation: "Butter" },
+    //         { text: "عَسَل", pronunciation: "asal", image: "https://t4.ftcdn.net/jpg/06/12/86/49/360_F_612864989_v6TrLkbttR4sjm9vj7bMvtTxO7Xw4ZXY.jpg", translation: "Honey" },
+    //     ]
+    //     }
+    // ]
+    // },
     //  جملات حرف چ
-//     {
-//   title: "کلمات با چ",
-//   imgSide: "/images/assetWord/ch.png",
-//   slides: [
-//     {
-//       sentence: "مَن چَای دَارَم.",
-//       words: [
-//         {
-//           text: "چَای",
-//           pronunciation: "chāy",
-//           image: "https://cdn.pixabay.com/photo/2016/03/31/19/20/tea-1294303_960_720.png",
-//           translation: "Tea"
-//         }
-//       ]
-//     },
-//     {
-//       sentence: "ایـن چُوب اَست.",
-//       words: [
-//         {
-//           text: "چُوب",
-//           pronunciation: "chub",
-//           image: "https://cdn.pixabay.com/photo/2013/07/12/19/34/wood-154073_960_720.png",
-//           translation: "Wood"
-//         }
-//       ]
-//     },
-//     {
-//       sentence: "چَتَر مَن آبی اَست.",
-//       words: [
-//         {
-//           text: "چَتَر",
-//           pronunciation: "chatar",
-//           image: "https://cdn.pixabay.com/photo/2017/02/12/21/17/umbrella-2062050_960_720.png",
-//           translation: "Umbrella"
-//         }
-//       ]
-//     },
-//     {
-//       sentence: "چَمَن سَبز اَست.",
-//       words: [
-//         {
-//           text: "چَمَن",
-//           pronunciation: "chaman",
-//           image: "https://cdn.pixabay.com/photo/2016/11/29/04/55/grass-1868216_960_720.jpg",
-//           translation: "Grass"
-//         }
-//       ]
-//     },
-//     {
-//       sentence: "چَسَب رُوی میـز اَست.",
-//       words: [
-//         {
-//           text: "چَسَب",
-//           pronunciation: "chasb",
-//           image: "https://cdn.pixabay.com/photo/2013/07/12/13/56/glue-146718_960_720.png",
-//           translation: "Glue"
-//         }
-//       ]
-//     },
-//     {
-//       sentence: "تُو بِه چَپ بُرو.",
-//       words: [
-//         {
-//           text: "چَپ",
-//           pronunciation: "chap",
-//           image: "https://cdn.pixabay.com/photo/2016/04/01/09/11/arrow-1304324_960_720.png",
-//           translation: "Left"
-//         }
-//       ]
-//     },
-//     {
-//       sentence: "ایـن چی اَست؟",
-//       words: [
-//         {
-//           text: "چی",
-//           pronunciation: "chi",
-//           image: "https://cdn.pixabay.com/photo/2014/04/03/10/01/question-312550_960_720.png",
-//           translation: "What"
-//         }
-//       ]
-//     },
-//     {
-//       sentence: "سِیب را بِچین.",
-//       words: [
-//         {
-//           text: "بِچین",
-//           pronunciation: "bechin",
-//           image: "https://cdn.pixabay.com/photo/2014/04/02/10/03/apple-307340_960_720.png",
-//           translation: "Pick"
-//         }
-//       ]
-//     },
-//     {
-//       sentence: "مادَر چادُر دَارد.",
-//       words: [
-//         {
-//           text: "چادُر",
-//           pronunciation: "chādur",
-//           image: "https://cdn.pixabay.com/photo/2017/01/31/18/39/headscarf-2028573_960_720.png",
-//           translation: "Scarf"
-//         }
-//       ]
-//     },
-//     {
-//       sentence: "چِشم مَن سَالِم اَست.",
-//       words: [
-//         {
-//           text: "چِشم",
-//           pronunciation: "cheshm",
-//           image: "https://cdn.pixabay.com/photo/2016/03/31/19/08/eye-1294181_960_720.png",
-//           translation: "Eye"
-//         }
-//       ]
-//     },
-//     {
-//       sentence: "او چِشمَک زَد.",
-//       words: [
-//         {
-//           text: "چِشمَک",
-//           pronunciation: "cheshmak",
-//           image: "https://cdn.pixabay.com/photo/2013/07/13/12/44/winking-160199_960_720.png",
-//           translation: "Wink"
-//         }
-//       ]
-//     }
-//   ]
-// },
+    {
+  title: "کلمات با چ",
+  imgSide: "/images/assetWord/ch.png",
+  slides: [
+    {
+      sentence: "مَن چای دارَم.",
+      words: [
+        {
+          text: "چای",
+          pronunciation: "chāy",
+          image: "https://cdn.pixabay.com/photo/2016/03/31/19/20/tea-1294303_960_720.png",
+          translation: "Tea"
+        }
+      ]
+    },
+    {
+      sentence: "ایـن چُوب اَست.",
+      words: [
+        {
+          text: "چُوب",
+          pronunciation: "chub",
+          image: "https://cdn.pixabay.com/photo/2013/07/12/19/34/wood-154073_960_720.png",
+          translation: "Wood"
+        }
+      ]
+    },
+    {
+      sentence: "چَتَرِ مَن آبی اَست.",
+      words: [
+        {
+          text: "چَتر",
+          pronunciation: "chatar",
+          image: "https://cdn.pixabay.com/photo/2017/02/12/21/17/umbrella-2062050_960_720.png",
+          translation: "Umbrella"
+        }
+      ]
+    },
+    {
+      sentence: "چَمَن سَبز اَست.",
+      words: [
+        {
+          text: "چَمَن",
+          pronunciation: "chaman",
+          image: "https://cdn.pixabay.com/photo/2016/11/29/04/55/grass-1868216_960_720.jpg",
+          translation: "Grass"
+        }
+      ]
+    },
+    {
+      sentence: "چَسب رُویِ میـز اَست.",
+      words: [
+        {
+          text: "چَسب",
+          pronunciation: "chasb",
+          image: "https://cdn.pixabay.com/photo/2013/07/12/13/56/glue-146718_960_720.png",
+          translation: "Glue"
+        }
+      ]
+    },
+    {
+      sentence: "تُو بِه چَپ بُرو.",
+      words: [
+        {
+          text: "چَپ",
+          pronunciation: "chap",
+          image: "https://cdn.pixabay.com/photo/2016/04/01/09/11/arrow-1304324_960_720.png",
+          translation: "Left"
+        }
+      ]
+    },
+    {
+      sentence: "ایـن چی اَست؟",
+      words: [
+        {
+          text: "چی",
+          pronunciation: "chi",
+          image: "https://cdn.pixabay.com/photo/2014/04/03/10/01/question-312550_960_720.png",
+          translation: "What"
+        }
+      ]
+    },
+    {
+      sentence: "سِیب را بِچین.",
+      words: [
+        {
+          text: "بِچین",
+          pronunciation: "bechin",
+          image: "https://cdn.pixabay.com/photo/2014/04/02/10/03/apple-307340_960_720.png",
+          translation: "Pick"
+        }
+      ]
+    },
+    {
+      sentence: "مادَر چادُر دارَد.",
+      words: [
+        {
+          text: "چادُر",
+          pronunciation: "chādur",
+          image: "https://cdn.pixabay.com/photo/2017/01/31/18/39/headscarf-2028573_960_720.png",
+          translation: "Scarf"
+        }
+      ]
+    },
+    {
+      sentence: "چِشمِ مَن سَالِم اَست.",
+      words: [
+        {
+          text: "چِشم",
+          pronunciation: "cheshm",
+          image: "https://cdn.pixabay.com/photo/2016/03/31/19/08/eye-1294181_960_720.png",
+          translation: "Eye"
+        }
+      ]
+    },
+    {
+      sentence: "او چِشمَک زَد.",
+      words: [
+        {
+          text: "چِشمَک",
+          pronunciation: "cheshmak",
+          image: "https://cdn.pixabay.com/photo/2013/07/13/12/44/winking-160199_960_720.png",
+          translation: "Wink"
+        }
+      ]
+    }
+  ]
+},
 
   // جملات حرف پ
     // {
@@ -620,7 +620,7 @@ const SentenceObject = () => {
   const [activeSlideIndex, setActiveSlideIndex] = useState(0);
   const [selectedWord, setSelectedWord] = useState(null);
   const [showSidebar, setShowSidebar] = useState(true);
-  const [mainTitle, setMainTitle] = useState("صبحانه");
+  const [mainTitle, setMainTitle] = useState("جملات چ");
   const [imgSide, setImgSide] = useState("/images/assetWord/girlSitting.png");
 
   // states for highlighting

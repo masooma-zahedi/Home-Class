@@ -15,9 +15,9 @@ import SentenceObject from "../sections/word/SentenceObject";
 
 export default function Home() {
   return (<>
-  <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #1a2099ff"}}>بچه هااز روی داستان زیر بخوانند و معنی کلمات را یاد بگیرند و قسمت پایین عکس داستان را بنویسند .</h4>
+  <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #1a2099ff"}}>بچه ها جملات زیر را بخوانند و از روی 6 جمله آن بنویسند. داستان سوپ داغ را هم بخوانند. .</h4>
       {/* <ObjectSentenceGame/> */}
-      {/* <SentenceObject/> */}
+      <SentenceObject/>
 
       {/* <WordFlipBox/> */}
     {/* <WordGameWithCategories initialCategory="زمستان" /> */}
@@ -30,7 +30,7 @@ export default function Home() {
     {/* <MatchingLettersPicturs/> */}
     {/* <BrokenGlass/> */}
     {/* <BouncingBalls/> */}
-    <StoryPage3 groupKey="alefba" wantedTitle="گُلدانِ نازنین" />
+    <StoryPage3 groupKey="alefba" wantedTitle="سوپِ داغ" />
 
     {/* <div className="container  mt-4" dir="rtl">
       <DragWriteBoxWithGuides width={840} height={520} showGuides={true} downloadName="persian_practice.png" textTitle="آیلین و سِتایِش هَر روز با هَم بازی می کُنَند."/>
