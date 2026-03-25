@@ -1,4 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
+import { nanoid } from "nanoid";
+
 
 /**
  * LetterMatch_PointerFix.jsx
@@ -12,31 +14,53 @@ import React, { useState, useRef, useEffect } from "react";
  */
 
 const dataSets = [
-   {
-  id: "alphabet",
-  title: "حروف الفبا",
-  items: [
-    { id: 1, word: "تُخمِ مُرغ", image: " https://static.vecteezy.com/system/resources/thumbnails/054/671/915/small/two-smiling-eggs-are-sitting-on-a-wooden-table-photo.jpg" },
-    { id: 2, word: "پَنگوئن", image: "https://static.vecteezy.com/system/resources/previews/044/864/382/non_2x/cute-winter-penguin-cartoon-drawing-vector.jpg " },
-    { id: 3, word: "بادکُنَک", image: "https://thumbs.dreamstime.com/b/cartoon-balloons-illustration-generative-ai-colorful-clipart-isolated-386381159.jpg" },
-    { id: 4, word: "اَنار", image: "https://thumbs.dreamstime.com/b/d-funny-cartoon-delicious-pomegranate-agriculture-fruit-ai-generated-d-funny-cartoon-delicious-pomegranate-304668331.jpg" },
+//    {
+//   id: "alphabet",
+//   title: "حروف الفبا",
+//   items: [
+//     { id: 1, word: "تُخمِ مُرغ", image: " https://static.vecteezy.com/system/resources/thumbnails/054/671/915/small/two-smiling-eggs-are-sitting-on-a-wooden-table-photo.jpg" },
+//     { id: 2, word: "پَنگوئن", image: "https://static.vecteezy.com/system/resources/previews/044/864/382/non_2x/cute-winter-penguin-cartoon-drawing-vector.jpg " },
+//     { id: 3, word: "بادکُنَک", image: "https://thumbs.dreamstime.com/b/cartoon-balloons-illustration-generative-ai-colorful-clipart-isolated-386381159.jpg" },
+//     { id: 4, word: "اَنار", image: "https://thumbs.dreamstime.com/b/d-funny-cartoon-delicious-pomegranate-agriculture-fruit-ai-generated-d-funny-cartoon-delicious-pomegranate-304668331.jpg" },
 
-    { id: 5, word: "شُکُلات", image: "https://t4.ftcdn.net/jpg/04/68/67/91/360_F_468679123_DnRyA3qKZnmxXiJ932TnmpJPBCj8sLEQ.jpg " },
-    { id: 6, word: "سِتارِه", image: "https://thumbs.dreamstime.com/b/cartoon-star-smiling-face-featuring-large-expressive-eyes-cheerful-expression-flames-trail-behind-colored-shades-403930279.jpg " },
-    { id: 7, word: "رُز", image: " https://www.shutterstock.com/image-vector/rose-vector-on-white-background-600nw-2567441655.jpg" },
-    { id: 8, word: "دِرَخت", image: "https://png.pngtree.com/png-vector/20231023/ourmid/pngtree-tree-png-cartoon-tree-png-image_10312641.png " },
+//     { id: 5, word: "شُکُلات", image: "https://t4.ftcdn.net/jpg/04/68/67/91/360_F_468679123_DnRyA3qKZnmxXiJ932TnmpJPBCj8sLEQ.jpg " },
+//     { id: 6, word: "سِتارِه", image: "https://thumbs.dreamstime.com/b/cartoon-star-smiling-face-featuring-large-expressive-eyes-cheerful-expression-flames-trail-behind-colored-shades-403930279.jpg " },
+//     { id: 7, word: "رُز", image: " https://www.shutterstock.com/image-vector/rose-vector-on-white-background-600nw-2567441655.jpg" },
+//     { id: 8, word: "دِرَخت", image: "https://png.pngtree.com/png-vector/20231023/ourmid/pngtree-tree-png-cartoon-tree-png-image_10312641.png " },
 
-    { id: 9, word: "نان", image: "https://as2.ftcdn.net/jpg/06/07/77/33/1000_F_607773312_lAuuRIgHldmjunLUJWq0VDxngKD9aZ39.jpg " },
-    { id: 10, word: "لِباس", image: "https://img.freepik.com/free-vector/set-clothes-isolated_1308-133273.jpg " },
-    { id: 11, word: "مورچِه", image: " https://t4.ftcdn.net/jpg/16/42/81/11/360_F_1642811110_JwEPZq9nBV4LPAptrmobcCHpIi6VbP7X.jpg" },
-    { id: 12, word: "کَلید", image: "https://previews.123rf.com/images/nikiteev/nikiteev1609/nikiteev160901271/62689032-vector-cartoon-bunch-of-modern-keys-on-white-background.jpg" },
+//     { id: 9, word: "نان", image: "https://as2.ftcdn.net/jpg/06/07/77/33/1000_F_607773312_lAuuRIgHldmjunLUJWq0VDxngKD9aZ39.jpg " },
+//     { id: 10, word: "لِباس", image: "https://img.freepik.com/free-vector/set-clothes-isolated_1308-133273.jpg " },
+//     { id: 11, word: "مورچِه", image: " https://t4.ftcdn.net/jpg/16/42/81/11/360_F_1642811110_JwEPZq9nBV4LPAptrmobcCHpIi6VbP7X.jpg" },
+//     { id: 12, word: "کَلید", image: "https://previews.123rf.com/images/nikiteev/nikiteev1609/nikiteev160901271/62689032-vector-cartoon-bunch-of-modern-keys-on-white-background.jpg" },
 
-    { id:13 , word: "لاک پُشت", image: "https://media.istockphoto.com/id/1291924147/vector/vector-cute-turtle-cartoon-character.jpg?s=170667a&w=0&k=20&c=ucrjh5hNpBEL6fPHnO89X2UjkMQwmks-s5a_jD6-etE=" },
-    { id: 14, word: "مار", image: "https://thumbs.dreamstime.com/b/d-cartoon-snake-vibrant-scales-friendly-expression-white-background-356297574.jpg" },
-    { id: 15, word: "شیر", image: "https://static.vecteezy.com/system/resources/previews/007/270/750/non_2x/cartoon-milk-box-holding-a-glass-of-milk-vector.jpg" },
-    { id:16 , word: "راست", image: "https://static.vecteezy.com/system/resources/previews/012/941/604/non_2x/cartoon-little-boy-pointing-to-his-right-with-the-right-word-vector.jpg" },
-  ],
-},
+//     { id:13 , word: "لاک پُشت", image: "https://media.istockphoto.com/id/1291924147/vector/vector-cute-turtle-cartoon-character.jpg?s=170667a&w=0&k=20&c=ucrjh5hNpBEL6fPHnO89X2UjkMQwmks-s5a_jD6-etE=" },
+//     { id: 14, word: "مار", image: "https://thumbs.dreamstime.com/b/d-cartoon-snake-vibrant-scales-friendly-expression-white-background-356297574.jpg" },
+//     { id: 15, word: "شیر", image: "https://static.vecteezy.com/system/resources/previews/007/270/750/non_2x/cartoon-milk-box-holding-a-glass-of-milk-vector.jpg" },
+//     { id:16 , word: "راست", image: "https://static.vecteezy.com/system/resources/previews/012/941/604/non_2x/cartoon-little-boy-pointing-to-his-right-with-the-right-word-vector.jpg" },
+//   ],
+// },
+  {
+    id: "housePart",
+    title: "بخش های خانه",
+items: [
+  { id: nanoid(), word: "آشپَزخانه", image: "https://thumbs.dreamstime.com/b/vector-cartoon-kitchen-counter-appliances-furniture-set-fridge-microwave-oven-kettle-blender-stove-exhaust-cupboard-114160344.jpg" },
+  { id: nanoid(), word: "اتاق نِشیمَن", image: "https://t4.ftcdn.net/jpg/01/58/57/41/360_F_158574152_sojV4O8PjcvOc1CsGfSeqFnb4Lx26kRp.jpg" },
+  { id: nanoid(), word: "اتاق خواب", image: "https://png.pngtree.com/background/20250612/original/pngtree-cartoon-kids-bedroom-with-space-theme-decor-picture-image_16652439.jpg" },
+  { id: nanoid(), word: "حمّام", image: "https://img.freepik.com/premium-photo/bathroom-bathtub-cartoon-toilet_53876-440965.jpg" },
+  { id: nanoid(), word: "حَیاط", image: "https://www.shutterstock.com/image-vector/scene-backyard-fence-illustration-260nw-2140989857.jpg" },
+  { id: nanoid(), word: "گَاراج", image: "https://img.freepik.com/premium-photo/garage-car-vehicle-cartoon_53876-403477.jpg" },
+  { id: nanoid(), word: "اتاق ناهارخوری", image: "https://img.freepik.com/premium-vector/elegant-easter-dining-table-decor-room-setting_1339080-23631.jpg?semt=ais_hybrid&w=740&q=80" },
+  { id: nanoid(), word: "راهرو", image: "https://t3.ftcdn.net/jpg/03/34/23/42/360_F_334234241_9Q7HP4dRbrB34XWuMldzcWhFaohCpxco.jpg" },
+  { id: nanoid(), word: "بالکن", image: "https://static.vecteezy.com/system/resources/previews/043/340/199/non_2x/cartoon-color-building-balcony-or-apartment-terrace-vector.jpg" },
+  { id: nanoid(), word: "پشت‌ بام", image: "https://thumbs.dreamstime.com/b/cartoon-illustration-construction-worker-fixing-rooftop-worker-wearing-cartoon-illustration-construction-415619243.jpg" },
+  { id: nanoid(), word: "باغچه", image: "https://thumbs.dreamstime.com/b/cartoon-garden-vegetables-fruit-trees-cartoon-garden-vegetables-like-cabbage-carrots-cauliflower-pepper-114918152.jpg" },
+  { id: nanoid(), word: "کمد", image: "https://img.freepik.com/premium-photo/wardrobe-clip-art-cartoon-illustration-isolated-white-background_15083-9269.jpg?semt=ais_incoming&w=740&q=80" },
+  { id: nanoid(), word: "پله‌ها", image: "https://img.freepik.com/premium-vector/vector-interior-with-staircase-living-room_734543-66.jpg?semt=ais_incoming&w=740&q=80" },
+  { id: nanoid(), word: "زیرزمین", image: "https://www.shutterstock.com/image-vector/basement-room-interior-house-storage-260nw-2447486161.jpg" },
+  { id: nanoid(), word: "زیرشیروانی", image: "https://t3.ftcdn.net/jpg/03/14/62/92/360_F_314629223_hk1iDQiUWjsvdMZwPeZLjWAVQKBhMd4u.jpg" },
+]
+
+  },
   // {
   //   id: "animals",
   //   title: "حیوانات",
