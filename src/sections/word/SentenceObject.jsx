@@ -130,133 +130,133 @@ const lessonGroups = [
     // ]
     // },
     //  جملات حرف چ
-    {
-  title: "کلمات با چ",
-  imgSide: "/images/assetWord/ch.png",
-  slides: [
-    {
-      sentence: "مَن چای دارَم.",
-      words: [
-        {
-          text: "چای",
-          pronunciation: "chāy",
-          image: "https://cdn.pixabay.com/photo/2016/03/31/19/20/tea-1294303_960_720.png",
-          translation: "Tea"
-        }
-      ]
-    },
-    {
-      sentence: "ایـن چُوب اَست.",
-      words: [
-        {
-          text: "چُوب",
-          pronunciation: "chub",
-          image: "https://cdn.pixabay.com/photo/2013/07/12/19/34/wood-154073_960_720.png",
-          translation: "Wood"
-        }
-      ]
-    },
-    {
-      sentence: "چَتَرِ مَن آبی اَست.",
-      words: [
-        {
-          text: "چَتر",
-          pronunciation: "chatar",
-          image: "https://cdn.pixabay.com/photo/2017/02/12/21/17/umbrella-2062050_960_720.png",
-          translation: "Umbrella"
-        }
-      ]
-    },
-    {
-      sentence: "چَمَن سَبز اَست.",
-      words: [
-        {
-          text: "چَمَن",
-          pronunciation: "chaman",
-          image: "https://cdn.pixabay.com/photo/2016/11/29/04/55/grass-1868216_960_720.jpg",
-          translation: "Grass"
-        }
-      ]
-    },
-    {
-      sentence: "چَسب رُویِ میـز اَست.",
-      words: [
-        {
-          text: "چَسب",
-          pronunciation: "chasb",
-          image: "https://cdn.pixabay.com/photo/2013/07/12/13/56/glue-146718_960_720.png",
-          translation: "Glue"
-        }
-      ]
-    },
-    {
-      sentence: "تُو بِه چَپ بُرو.",
-      words: [
-        {
-          text: "چَپ",
-          pronunciation: "chap",
-          image: "https://cdn.pixabay.com/photo/2016/04/01/09/11/arrow-1304324_960_720.png",
-          translation: "Left"
-        }
-      ]
-    },
-    {
-      sentence: "ایـن چی اَست؟",
-      words: [
-        {
-          text: "چی",
-          pronunciation: "chi",
-          image: "https://cdn.pixabay.com/photo/2014/04/03/10/01/question-312550_960_720.png",
-          translation: "What"
-        }
-      ]
-    },
-    {
-      sentence: "سِیب را بِچین.",
-      words: [
-        {
-          text: "بِچین",
-          pronunciation: "bechin",
-          image: "https://cdn.pixabay.com/photo/2014/04/02/10/03/apple-307340_960_720.png",
-          translation: "Pick"
-        }
-      ]
-    },
-    {
-      sentence: "مادَر چادُر دارَد.",
-      words: [
-        {
-          text: "چادُر",
-          pronunciation: "chādur",
-          image: "https://cdn.pixabay.com/photo/2017/01/31/18/39/headscarf-2028573_960_720.png",
-          translation: "Scarf"
-        }
-      ]
-    },
-    {
-      sentence: "چِشمِ مَن سَالِم اَست.",
-      words: [
-        {
-          text: "چِشم",
-          pronunciation: "cheshm",
-          image: "https://cdn.pixabay.com/photo/2016/03/31/19/08/eye-1294181_960_720.png",
-          translation: "Eye"
-        }
-      ]
-    },
-    {
-      sentence: "او چِشمَک زَد.",
-      words: [
-        {
-          text: "چِشمَک",
-          pronunciation: "cheshmak",
-          image: "https://cdn.pixabay.com/photo/2013/07/13/12/44/winking-160199_960_720.png",
-          translation: "Wink"
-        }
-      ]
-    }
-  ]
-},
+//     {
+//   title: "کلمات با چ",
+//   imgSide: "/images/assetWord/ch.png",
+//   slides: [
+//     {
+//       sentence: "مَن چای دارَم.",
+//       words: [
+//         {
+//           text: "چای",
+//           pronunciation: "chāy",
+//           image: "https://cdn.pixabay.com/photo/2016/03/31/19/20/tea-1294303_960_720.png",
+//           translation: "Tea"
+//         }
+//       ]
+//     },
+//     {
+//       sentence: "ایـن چُوب اَست.",
+//       words: [
+//         {
+//           text: "چُوب",
+//           pronunciation: "chub",
+//           image: "https://cdn.pixabay.com/photo/2013/07/12/19/34/wood-154073_960_720.png",
+//           translation: "Wood"
+//         }
+//       ]
+//     },
+//     {
+//       sentence: "چَتَرِ مَن آبی اَست.",
+//       words: [
+//         {
+//           text: "چَتر",
+//           pronunciation: "chatar",
+//           image: "https://cdn.pixabay.com/photo/2017/02/12/21/17/umbrella-2062050_960_720.png",
+//           translation: "Umbrella"
+//         }
+//       ]
+//     },
+//     {
+//       sentence: "چَمَن سَبز اَست.",
+//       words: [
+//         {
+//           text: "چَمَن",
+//           pronunciation: "chaman",
+//           image: "https://cdn.pixabay.com/photo/2016/11/29/04/55/grass-1868216_960_720.jpg",
+//           translation: "Grass"
+//         }
+//       ]
+//     },
+//     {
+//       sentence: "چَسب رُویِ میـز اَست.",
+//       words: [
+//         {
+//           text: "چَسب",
+//           pronunciation: "chasb",
+//           image: "https://cdn.pixabay.com/photo/2013/07/12/13/56/glue-146718_960_720.png",
+//           translation: "Glue"
+//         }
+//       ]
+//     },
+//     {
+//       sentence: "تُو بِه چَپ بُرو.",
+//       words: [
+//         {
+//           text: "چَپ",
+//           pronunciation: "chap",
+//           image: "https://cdn.pixabay.com/photo/2016/04/01/09/11/arrow-1304324_960_720.png",
+//           translation: "Left"
+//         }
+//       ]
+//     },
+//     {
+//       sentence: "ایـن چی اَست؟",
+//       words: [
+//         {
+//           text: "چی",
+//           pronunciation: "chi",
+//           image: "https://cdn.pixabay.com/photo/2014/04/03/10/01/question-312550_960_720.png",
+//           translation: "What"
+//         }
+//       ]
+//     },
+//     {
+//       sentence: "سِیب را بِچین.",
+//       words: [
+//         {
+//           text: "بِچین",
+//           pronunciation: "bechin",
+//           image: "https://cdn.pixabay.com/photo/2014/04/02/10/03/apple-307340_960_720.png",
+//           translation: "Pick"
+//         }
+//       ]
+//     },
+//     {
+//       sentence: "مادَر چادُر دارَد.",
+//       words: [
+//         {
+//           text: "چادُر",
+//           pronunciation: "chādur",
+//           image: "https://cdn.pixabay.com/photo/2017/01/31/18/39/headscarf-2028573_960_720.png",
+//           translation: "Scarf"
+//         }
+//       ]
+//     },
+//     {
+//       sentence: "چِشمِ مَن سَالِم اَست.",
+//       words: [
+//         {
+//           text: "چِشم",
+//           pronunciation: "cheshm",
+//           image: "https://cdn.pixabay.com/photo/2016/03/31/19/08/eye-1294181_960_720.png",
+//           translation: "Eye"
+//         }
+//       ]
+//     },
+//     {
+//       sentence: "او چِشمَک زَد.",
+//       words: [
+//         {
+//           text: "چِشمَک",
+//           pronunciation: "cheshmak",
+//           image: "https://cdn.pixabay.com/photo/2013/07/13/12/44/winking-160199_960_720.png",
+//           translation: "Wink"
+//         }
+//       ]
+//     }
+//   ]
+// },
 
   // جملات حرف پ
     // {
@@ -406,11 +406,11 @@ const lessonGroups = [
     //   ]
     // },
     // جملات فعالیت ها4
-    // {
-    //   title: " فعالیت 4",
-    //   imgSide:"https://static.vecteezy.com/system/resources/previews/045/880/923/non_2x/little-boy-having-good-idea-a-bubble-with-idea-lamp-sign-isolated-on-white-background-vector.jpg",
-    //   slides:createNewData(action4 || [])
-    // },
+    {
+      title: " فعالیت 4",
+      imgSide:"https://static.vecteezy.com/system/resources/previews/045/880/923/non_2x/little-boy-having-good-idea-a-bubble-with-idea-lamp-sign-isolated-on-white-background-vector.jpg",
+      slides:createNewData(action4 || [])
+    },
     // طبیعت
     // {
     //   title: "طبیعت",
