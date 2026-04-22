@@ -277,221 +277,220 @@ import React, { useEffect, useState } from 'react';
 // ];
 
 
-// const illnessSignsQuestions = [
-//   {
-//     image: 'https://media.istockphoto.com/id/598785430/vector/sick-girl-in-bed.jpg?s=612x612&w=0&k=20&c=sp_1S46NAWTwVYfiln8cv6sKc-PJNT-HR54GNeryy5Q=',
-//     correct: '.او تَب دارَد',
-//     options: ['.او تَب دارَد', '.او می‌خَندَد', '.او گُرسنه اَست'],
-//     word: 'تَب',
-//     meaning: 'Fever '
-//   },
-//   {
-//     image: 'https://www.shutterstock.com/image-vector/boys-people-suffering-various-symptoms-260nw-1658168074.jpg',
-//     correct: '.او سَرفه می‌کُنَد',
-//     options: ['.او مِی‌دَوَد', '.او سَرفه می‌کُنَد', '.او بازی می‌کُنَد'],
-//     word: 'سَرفه',
-//     meaning: 'Cough '
-//   },
-//   {
-//     image: 'https://media.istockphoto.com/id/1624886149/vector/vector-illustration-of-a-sick-child-in-hospital.jpg?s=612x612&w=0&k=20&c=TRUdAA59SS_14Y-5wmH0372qHCAhVKqf7uTI0uV6ob8=',
-//     correct: '.او حالِ خوبی نَدارَد',
-//     options: ['.او حالِ خوبی دارَد', '.او خوشحال اَست', '.او حالِ خوبی نَدارَد'],
-//     word: 'حالِ بد',
-//     meaning: 'Feeling unwell or sick'
-//   },
-//   {
-//     image: 'https://www.shutterstock.com/image-vector/child-has-got-flu-sneezing-600nw-216852040.jpg',
-//     correct: '.او عَطسِه می‌کُنَد',
-//     options: ['.او عَطسِه می‌کُنَد', '.او آواز می‌خوانَد', '.او می‌خوابَد'],
-//     word: 'عَطسِه',
-//     meaning: 'Sneezing '
-//   },
-//   {
-//     image: 'https://img.freepik.com/free-vector/hand-drawn-headache-cartoon-illustration_23-2150696197.jpg',
-//     correct: '.او سَردَرد دارَد',
-//     options: ['.او سَردَرد دارَد', '.او دَست‌دَرد دارَد', '.او خوشحال اَست'],
-//     word: 'سَردَرد',
-//     meaning: 'Headache'
-//   },
-//   {
-//     image: 'https://www.shutterstock.com/image-vector/illustration-depicts-child-character-tuft-260nw-703924654.jpg',
-//     correct: '.او گَلودَرد دارَد',
-//     options: ['.او پا دَرد دارَد', '.او خوابیده اَست', '.او گَلودَرد دارَد'],
-//     word: 'گَلودَرد',
-//     meaning: 'Sore throat'
-//   },
-//   {
-//     image: 'https://www.shutterstock.com/image-vector/vector-illustration-little-boy-suffering-600nw-1582302751.jpg',
-//     correct: '.او شِکم‌دَرد دارَد',
-//     options: ['.او دَست دَرد دارَد', '.او شِکم‌دَرد دارَد', '.او دَندان دَرد دارَد'],
-//     word: 'شِکم‌دَرد',
-//     meaning: 'Stomachache '
-//   },
-//   {
-//     image: 'https://previews.123rf.com/images/colorfuelstudio/colorfuelstudio2104/colorfuelstudio210400194/167735574-young-good-looking-woman-feeling-tired-and-sick.jpg',
-//     correct: '.او خَستِه اَست',
-//     options: ['.او بیدار اَست', '.او تَب دارَد', '.او خَستِه اَست'],
-//     word: 'خَستِه',
-//     meaning: 'Tired '
-//   },
-//   {
-//     image: 'https://previews.123rf.com/images/ruangdesign19/ruangdesign191909/ruangdesign19190900013/129710506-cartoon-child-toothache-vector-illustration.jpg',
-//     correct: '.او دَندان‌دَرد دارَد',
-//     options: ['.او دَندان‌دَرد دارَد', '.او گوش‌دَرد دارَد', '.او خوابش می‌آیَد'],
-//     word: 'دَندان‌دَرد',
-//     meaning: 'Toothache'
-//   },
-//   {
-//     image: 'https://www.shutterstock.com/image-vector/earache-sore-boy-sick-person-600nw-1671298501.jpg',
-//     correct: '.او گوش‌دَرد دارَد',
-//     options: ['.او گوش‌دَرد دارَد', '.او شِکم‌دَرد دارَد', '.او حالِ خوب دارَد'],
-//     word: 'گوش‌دَرد',
-//     meaning: 'Earache '
-//   },
-//   {
-//     image: 'https://media.istockphoto.com/id/1423379495/vector/girl-sweating-sunny-day-cute-child.jpg?s=612x612&w=0&k=20&c=FU0s8UF13Ms0UaOVXG5RUr3iWukOirvKnhdf1SZ7Xss=',
-//     correct: '.او عَرق می‌کُنَد',
-//     options: ['.او لَبخَند می‌زَنَد', '.او عَرق می‌کُنَد', '.او دَر راه اَست'],
-//     word: 'عَرق',
-//     meaning: 'Sweat '
-//   },
-//   {
-//     image: 'https://png.pngtree.com/png-clipart/20250210/original/pngtree-a-runny-nose-for-a-child-png-image_20412369.png',
-//     correct: '.بینیِ او گِرفتِه اَست',
-//     options: ['.او بینی نَدارَد', '.او دَندان دَرد دارَد', '.بینیِ او گِرفتِه اَست'],
-//     word: 'گرفتگی بینی',
-//     meaning: 'Nasal congestion'
-//   },
-//   {
-//     image: 'https://www.shutterstock.com/image-vector/little-kid-feel-tired-low-260nw-2524893147.jpg',
-//     correct: '.او نِیرویی نَدارَد',
-//     options: ['.او دَرس می‌خوانَد', '.او نِیرویی نَدارَد', '.او تَشنه اَست'],
-//     word: 'بی‌نِیرویی',
-//     meaning: 'Fatigue'
-//   },
-//   {
-//     image: 'https://t.pimg.jp/084/974/769/1/84974769.jpg',
-//     correct: '.او روی تَخت دراز کِشیدِه اَست',
-//     options: ['.او روی تَخت دراز کِشیدِه اَست', '.او بازی می‌کُنَد', '.او مِی‌دَوَد'],
-//     word: 'دراز کشیدن',
-//     meaning: 'Lying down '
-//   },
-//   {
-//     image: 'https://cdn.motherhood.com.my/wp-content/uploads/2022/04/14190652/child-eat-medicine.png',
-//     correct: '.او دارو می‌خورد',
-//     options: ['.او میوه می‌خورَد', '.او آب می‌خورَد', '.او دارو می‌خورد'],
-//     word: 'دارو',
-//     meaning: 'Medicine'
-//   }
-// ];
-
-const pantry = [
+const illnessSignsQuestions = [
   {
-    image: 'https://c8.alamy.com/comp/FTRH8J/freehand-drawn-cartoon-sugar-bowl-FTRH8J.jpg',
-    correct: '.این شِکَر اَست',
-    options: ['.این آرد اَست', '.این شِکَر اَست', '.این نَمَک اَست'],
-    word: 'شِکَر',
-    meaning: 'sugar'
+    image: 'https://media.istockphoto.com/id/598785430/vector/sick-girl-in-bed.jpg?s=612x612&w=0&k=20&c=sp_1S46NAWTwVYfiln8cv6sKc-PJNT-HR54GNeryy5Q=',
+    correct: '.او تَب دارَد',
+    options: ['.او تَب دارَد', '.او می‌خَندَد', '.او گُرُسنه اَست'],
+    word: 'تَب',
+    meaning: 'Fever '
   },
   {
-    image: 'https://media.istockphoto.com/id/1314024818/vector/bag-of-wheat-flour-vector-isolated-illustration.jpg?s=612x612&w=0&k=20&c=XNUjV5muckg8HhKIUNAcj_mRmqLcUharUvFRN4macxo=',
-    correct: '.این آرد اَست',
-    options: ['.این آرد اَست', '.این روغَن اَست', '.این شِکَر اَست'],
-    word: 'آرد',
-    meaning: 'flour'
+    image: 'https://www.shutterstock.com/image-vector/boys-people-suffering-various-symptoms-260nw-1658168074.jpg',
+    correct: '.او سُرفه می‌کُنَد',
+    options: ['.او می‌دَوَد', '.او سُرفه می‌کُنَد', '.او بازی می‌کُنَد'],
+    word: 'سُرفه',
+    meaning: 'Cough '
   },
   {
-    image: 'https://media.istockphoto.com/id/1333049606/vector/salt-sprinkling-man-holds-salt-in-hand-salt-the-culinary-dish.jpg?s=612x612&w=0&k=20&c=FFMga7Vsw8odhYTzdty4ZeSvMAgsOa7RRoQP91n2SOg=',
-    correct: '.این نَمَک اَست',
-    options: [ '.این فِلفِل اَست','.این نَمَک اَست', '.این آرد اَست'],
-    word: 'نَمَک',
-    meaning: 'salt'
+    image: 'https://clipart-library.com/images/pi76rXxi9.jpg',
+    correct: '.او حالِ خوبی نَدارَد',
+    options: ['.او حالِ خوبی دارَد', '.او خوشحال اَست', '.او حالِ خوبی نَدارَد'],
+    word: 'حالِ بد',
+    meaning: 'Feeling unwell or sick'
   },
   {
-    image: 'https://c8.alamy.com/comp/2EGHFA5/natural-oil-cartoon-poster-with-fresh-vegetarian-ingredient-green-olive-fruit-branch-corn-vegetable-and-sunflower-with-bottle-of-organic-oil-for-foo-2EGHFA5.jpg',
-    correct: '.این روغَن اَست',
-    options: [ '.این نَمَک اَست','.این روغَن اَست', '.این آرد اَست'],
-    word: 'روغَن',
-    meaning: 'oil'
+    image: 'https://www.shutterstock.com/image-vector/child-has-got-flu-sneezing-600nw-216852040.jpg',
+    correct: '.او عَطسِه می‌کُنَد',
+    options: ['.او عَطسِه می‌کُنَد', '.او آواز می‌خوانَد', '.او می‌خوابَد'],
+    word: 'عَطسِه',
+    meaning: 'Sneezing '
   },
   {
-    image: 'https://img.freepik.com/premium-photo/hand-drawn-cartoon-delicious-pasta-illustration_561641-9274.jpg',
-    correct: '.این پاستا اَست',
-    options: ['.این پاستا اَست', '.این آرد اَست', '.این نان اَست'],
-    word: 'پاستا',
-    meaning: 'pasta'
+    image: 'https://img.freepik.com/free-vector/hand-drawn-headache-cartoon-illustration_23-2150696197.jpg',
+    correct: '.او سَردَرد دارَد',
+    options: ['.او سَردَرد دارَد', '.او دَست‌ دَرد دارَد', '.او خوشحال اَست'],
+    word: 'سَردَرد',
+    meaning: 'Headache'
   },
   {
-    image: 'https://img.freepik.com/premium-vector/cartoon-bowl-rice-illustration-vector-cute-food-character-design_1322206-51427.jpg',
-    correct: '.این بِرنج اَست',
-    options: [ '.این شِکَر اَست', '.این نَمَک اَست','.این بِرنج اَست',],
-    word: 'بِرنج',
-    meaning: 'rice'
+    image: 'https://c8.alamy.com/comp/2B7XEMH/a-child-is-showing-symptoms-of-a-sore-throat-or-covid-19-hand-drawn-vector-illustration-2B7XEMH.jpg',
+    correct: '.او گَلودَرد دارَد',
+    options: ['.او پا دَرد دارَد', '.او خوابیده اَست', '.او گَلودَرد دارَد'],
+    word: 'گَلودَرد',
+    meaning: 'Sore throat'
   },
   {
-    image: 'https://img.pikbest.com/png-images/20250105/-coffee-love-foam-with-beans-cartoon-icon-illustration-cofee-vector_11340750.png!sw800',
-    correct: '.این قَهوه اَست',
-    options: ['.این چای اَست', '.این قَهوه اَست', '.این شِکَر اَست'],
-    word: 'قَهوه',
-    meaning: 'coffee'
+    image: 'https://www.shutterstock.com/image-vector/vector-illustration-little-boy-suffering-600nw-1582302751.jpg',
+    correct: '.او شِکم‌دَرد دارَد',
+    options: ['.او دَست دَرد دارَد', '.او شِکم‌دَرد دارَد', '.او دَندان دَرد دارَد'],
+    word: 'شِکم‌دَرد',
+    meaning: 'Stomachache '
   },
   {
-    image: 'https://img.freepik.com/premium-photo/hot-tea-cup-cartoon-isolated-white-background-v-61-job-id-01b3b1726072496684962110a8afc6a0_1067267-7161.jpg',
-    correct: '.این چای اَست',
-    options: ['.این چای اَست', '.این قَهوه اَست', '.این آب اَست'],
-    word: 'چای',
-    meaning: 'tea'
+    image: 'https://previews.123rf.com/images/colorfuelstudio/colorfuelstudio2104/colorfuelstudio210400194/167735574-young-good-looking-woman-feeling-tired-and-sick.jpg',
+    correct: '.او خَستِه اَست',
+    options: ['.او بیدار اَست', '.او تَب دارَد', '.او خَستِه اَست'],
+    word: 'خَستِه',
+    meaning: 'Tired '
   },
   {
-    image: 'https://media.istockphoto.com/id/2197401679/vector/cartoon-cereal-products-flour-rice-or-wheat-grains-for-bread-bakery-product-ripe-seeds.jpg?s=612x612&w=0&k=20&c=MwlGoYjckKNyJbGl5PxyjNjp6jfCTIRTh7tdsUrsFFY=',
-    correct: '.این غَلات اَست',
-    options: [ '.این پاستا اَست', '.این نان اَست','.این غَلات اَست',],
-    word: 'غَلات',
-    meaning: 'cereal/grains'
+    image: 'https://previews.123rf.com/images/ruangdesign19/ruangdesign191909/ruangdesign19190900013/129710506-cartoon-child-toothache-vector-illustration.jpg',
+    correct: '.او دَندان‌دَرد دارَد',
+    options: ['.او دَندان‌دَرد دارَد', '.او گوش‌ دَرد دارَد', '.او خوابَش می‌آیَد'],
+    word: 'دَندان‌دَرد',
+    meaning: 'Toothache'
   },
   {
-    image: 'https://media.istockphoto.com/id/690350566/vector/different-cookies-in-cartoon-style-vector-icons-set-isolate-on-white.jpg?s=612x612&w=0&k=20&c=vIKMpCZFneWjCNn66RBRGTfqhfFnlgM62f-twNLYrK0=',
-    correct: '.این بیسکویت اَست',
-    options: ['.این بیسکویت اَست', '.این نان اَست', '.این پاستا اَست'],
-    word: 'بیسکویت',
-    meaning: 'biscuit/cookie'
+    image: 'https://www.shutterstock.com/image-vector/earache-sore-boy-sick-person-600nw-1671298501.jpg',
+    correct: '.او گوش‌دَرد دارَد',
+    options: ['.او گوش‌دَرد دارَد', '.او شِکم‌دَرد دارَد', '.او حالِ خوب دارَد'],
+    word: 'گوش‌دَرد',
+    meaning: 'Earache '
   },
   {
-    image: 'https://t3.ftcdn.net/jpg/08/21/11/64/360_F_821116418_RxoS6NXGpIVVbQM5AaaBTXEB4yMmhOmX.jpg',
-    correct: '.این عَسَل اَست',
-    options: ['.این شِکَر اَست', '.این عَسَل اَست', '.این روغَن اَست'],
-    word: 'عَسَل',
-    meaning: 'honey'
+    image: 'https://media.istockphoto.com/id/1423379495/vector/girl-sweating-sunny-day-cute-child.jpg?s=612x612&w=0&k=20&c=FU0s8UF13Ms0UaOVXG5RUr3iWukOirvKnhdf1SZ7Xss=',
+    correct: '.او عَرَق می‌کُنَد',
+    options: ['.او لَبخَند می‌زَنَد', '.او عَرَق می‌کُنَد', '.او دَر راه اَست'],
+    word: 'عَرَق',
+    meaning: 'Sweat '
   },
   {
-    image: 'https://static.vecteezy.com/system/resources/previews/014/326/978/non_2x/spice-shop-with-different-hot-spices-condiment-exotic-fresh-seasoning-and-traditional-herbs-in-flat-cartoon-hand-drawn-templates-illustration-vector.jpg',
-    correct: '.این اَدویِه اَست',
-    options: [ '.این بَرنَج اَست','.این اَدویِه اَست', '.این روغَن اَست'],
-    word: 'اَدویِه',
-    meaning: 'spices'
+    image: 'https://png.pngtree.com/png-clipart/20250210/original/pngtree-a-runny-nose-for-a-child-png-image_20412369.png',
+    correct: '.بینیِ او گِرفتِه اَست',
+    options: ['.او بینی نَدارَد', '.او دَندان دَرد دارَد', '.بینیِ او گِرفتِه اَست'],
+    word: 'گرفتگی بینی',
+    meaning: 'Nasal congestion'
   },
   {
-    image: 'https://media.istockphoto.com/id/1062795532/vector/set-of-tin-food.jpg?s=612x612&w=0&k=20&c=AS23uQ1RNPZSU5pAwWKw6tJzNIfkmfFOUYJKHbOQoR0=',
-    correct: '.این کُنسرو اَست',
-    options: ['.این کُنسرو اَست', '.این پاستا اَست', '.این نان اَست'],
-    word: 'کُنسرو',
-    meaning: 'canned food'
+    image: 'https://www.shutterstock.com/image-vector/little-kid-feel-tired-low-260nw-2524893147.jpg',
+    correct: '.او نیرویی نَدارَد',
+    options: ['.او دَرس می‌خوانَد', '.او نیرویی نَدارَد', '.او تَشنه اَست'],
+    word: 'بی‌نیرویی',
+    meaning: 'Fatigue'
   },
   {
-    image: 'https://media.istockphoto.com/id/503455552/vector/nuts-isolated-on-white-background-cartoon-vector-icon.jpg?s=612x612&w=0&k=20&c=Bcp6PLExbsM8L9XY2Kqn6dLc9ZRdEmn2tj7UgckklAk=',
-    correct: '.این آجیل اَست',
-    options: ['.این آجیل اَست', '.این بَرنَج اَست', '.این بیسکویت اَست'],
-    word: 'آجیل',
-    meaning: 'nuts'
+    image: 'https://t.pimg.jp/084/974/769/1/84974769.jpg',
+    correct: '.او روی تَخت دراز کِشیدِه اَست',
+    options: ['.او روی تَخت دراز کِشیدِه اَست', '.او بازی می‌کُنَد', '.او می‌دَوَد'],
+    word: 'دراز کشیدن',
+    meaning: 'Lying down '
   },
   {
-    image: 'https://img.freepik.com/premium-vector/hand-drawn-cartoon-strawberry-jam-illustration_561641-3782.jpg',
-    correct: '.این مُربّا اَست',
-    options: [, '.این عَسَل اَست', '.این روغَن اَست','.این مُربّا اَست'],
-    word: 'مُربّا',
-    meaning: 'jam'
-  },
+    image: 'https://cdn.motherhood.com.my/wp-content/uploads/2022/04/14190652/child-eat-medicine.png',
+    correct: '.او دارو می‌خورَد',
+    options: ['.او میوه می‌خورَد', '.او آب می‌خورَد', '.او دارو می‌خورَد'],
+    word: 'دارو',
+    meaning: 'Medicine'
+  }
 ];
+// const pantry = [
+//   {
+//     image: 'https://c8.alamy.com/comp/FTRH8J/freehand-drawn-cartoon-sugar-bowl-FTRH8J.jpg',
+//     correct: '.این شِکَر اَست',
+//     options: ['.این آرد اَست', '.این شِکَر اَست', '.این نَمَک اَست'],
+//     word: 'شِکَر',
+//     meaning: 'sugar'
+//   },
+//   {
+//     image: 'https://media.istockphoto.com/id/1314024818/vector/bag-of-wheat-flour-vector-isolated-illustration.jpg?s=612x612&w=0&k=20&c=XNUjV5muckg8HhKIUNAcj_mRmqLcUharUvFRN4macxo=',
+//     correct: '.این آرد اَست',
+//     options: ['.این آرد اَست', '.این روغَن اَست', '.این شِکَر اَست'],
+//     word: 'آرد',
+//     meaning: 'flour'
+//   },
+//   {
+//     image: 'https://media.istockphoto.com/id/1333049606/vector/salt-sprinkling-man-holds-salt-in-hand-salt-the-culinary-dish.jpg?s=612x612&w=0&k=20&c=FFMga7Vsw8odhYTzdty4ZeSvMAgsOa7RRoQP91n2SOg=',
+//     correct: '.این نَمَک اَست',
+//     options: [ '.این فِلفِل اَست','.این نَمَک اَست', '.این آرد اَست'],
+//     word: 'نَمَک',
+//     meaning: 'salt'
+//   },
+//   {
+//     image: 'https://c8.alamy.com/comp/2EGHFA5/natural-oil-cartoon-poster-with-fresh-vegetarian-ingredient-green-olive-fruit-branch-corn-vegetable-and-sunflower-with-bottle-of-organic-oil-for-foo-2EGHFA5.jpg',
+//     correct: '.این روغَن اَست',
+//     options: [ '.این نَمَک اَست','.این روغَن اَست', '.این آرد اَست'],
+//     word: 'روغَن',
+//     meaning: 'oil'
+//   },
+//   {
+//     image: 'https://img.freepik.com/premium-photo/hand-drawn-cartoon-delicious-pasta-illustration_561641-9274.jpg',
+//     correct: '.این پاستا اَست',
+//     options: ['.این پاستا اَست', '.این آرد اَست', '.این نان اَست'],
+//     word: 'پاستا',
+//     meaning: 'pasta'
+//   },
+//   {
+//     image: 'https://img.freepik.com/premium-vector/cartoon-bowl-rice-illustration-vector-cute-food-character-design_1322206-51427.jpg',
+//     correct: '.این بِرنج اَست',
+//     options: [ '.این شِکَر اَست', '.این نَمَک اَست','.این بِرنج اَست',],
+//     word: 'بِرنج',
+//     meaning: 'rice'
+//   },
+//   {
+//     image: 'https://img.pikbest.com/png-images/20250105/-coffee-love-foam-with-beans-cartoon-icon-illustration-cofee-vector_11340750.png!sw800',
+//     correct: '.این قَهوه اَست',
+//     options: ['.این چای اَست', '.این قَهوه اَست', '.این شِکَر اَست'],
+//     word: 'قَهوه',
+//     meaning: 'coffee'
+//   },
+//   {
+//     image: 'https://img.freepik.com/premium-photo/hot-tea-cup-cartoon-isolated-white-background-v-61-job-id-01b3b1726072496684962110a8afc6a0_1067267-7161.jpg',
+//     correct: '.این چای اَست',
+//     options: ['.این چای اَست', '.این قَهوه اَست', '.این آب اَست'],
+//     word: 'چای',
+//     meaning: 'tea'
+//   },
+//   {
+//     image: 'https://media.istockphoto.com/id/2197401679/vector/cartoon-cereal-products-flour-rice-or-wheat-grains-for-bread-bakery-product-ripe-seeds.jpg?s=612x612&w=0&k=20&c=MwlGoYjckKNyJbGl5PxyjNjp6jfCTIRTh7tdsUrsFFY=',
+//     correct: '.این غَلات اَست',
+//     options: [ '.این پاستا اَست', '.این نان اَست','.این غَلات اَست',],
+//     word: 'غَلات',
+//     meaning: 'cereal/grains'
+//   },
+//   {
+//     image: 'https://media.istockphoto.com/id/690350566/vector/different-cookies-in-cartoon-style-vector-icons-set-isolate-on-white.jpg?s=612x612&w=0&k=20&c=vIKMpCZFneWjCNn66RBRGTfqhfFnlgM62f-twNLYrK0=',
+//     correct: '.این بیسکویت اَست',
+//     options: ['.این بیسکویت اَست', '.این نان اَست', '.این پاستا اَست'],
+//     word: 'بیسکویت',
+//     meaning: 'biscuit/cookie'
+//   },
+//   {
+//     image: 'https://t3.ftcdn.net/jpg/08/21/11/64/360_F_821116418_RxoS6NXGpIVVbQM5AaaBTXEB4yMmhOmX.jpg',
+//     correct: '.این عَسَل اَست',
+//     options: ['.این شِکَر اَست', '.این عَسَل اَست', '.این روغَن اَست'],
+//     word: 'عَسَل',
+//     meaning: 'honey'
+//   },
+//   {
+//     image: 'https://static.vecteezy.com/system/resources/previews/014/326/978/non_2x/spice-shop-with-different-hot-spices-condiment-exotic-fresh-seasoning-and-traditional-herbs-in-flat-cartoon-hand-drawn-templates-illustration-vector.jpg',
+//     correct: '.این اَدویِه اَست',
+//     options: [ '.این بَرنَج اَست','.این اَدویِه اَست', '.این روغَن اَست'],
+//     word: 'اَدویِه',
+//     meaning: 'spices'
+//   },
+//   {
+//     image: 'https://media.istockphoto.com/id/1062795532/vector/set-of-tin-food.jpg?s=612x612&w=0&k=20&c=AS23uQ1RNPZSU5pAwWKw6tJzNIfkmfFOUYJKHbOQoR0=',
+//     correct: '.این کُنسرو اَست',
+//     options: ['.این کُنسرو اَست', '.این پاستا اَست', '.این نان اَست'],
+//     word: 'کُنسرو',
+//     meaning: 'canned food'
+//   },
+//   {
+//     image: 'https://media.istockphoto.com/id/503455552/vector/nuts-isolated-on-white-background-cartoon-vector-icon.jpg?s=612x612&w=0&k=20&c=Bcp6PLExbsM8L9XY2Kqn6dLc9ZRdEmn2tj7UgckklAk=',
+//     correct: '.این آجیل اَست',
+//     options: ['.این آجیل اَست', '.این بَرنَج اَست', '.این بیسکویت اَست'],
+//     word: 'آجیل',
+//     meaning: 'nuts'
+//   },
+//   {
+//     image: 'https://img.freepik.com/premium-vector/hand-drawn-cartoon-strawberry-jam-illustration_561641-3782.jpg',
+//     correct: '.این مُربّا اَست',
+//     options: [, '.این عَسَل اَست', '.این روغَن اَست','.این مُربّا اَست'],
+//     word: 'مُربّا',
+//     meaning: 'jam'
+//   },
+// ];
 
 
 
@@ -502,8 +501,8 @@ const ObjectSentenceGame = () => {
   const [selected, setSelected] = useState("");
   const [score, setScore] = useState(0);
   const [isFinished, setIsFinished] = useState(false);
-  const [questions, setQuestions] = useState(pantry);
-  const [idModal, setIdModal] = useState("pantry");
+  const [questions, setQuestions] = useState(illnessSignsQuestions);
+  const [idModal, setIdModal] = useState("illnessSignsQuestions");
   const [showMeaning, setShowMeaning] = useState(false);
 
   const handleAnswer = (option) => {
@@ -621,7 +620,7 @@ const ObjectSentenceGame = () => {
                   <button
                     className="btn shadow-sm border mx-2 fw-bold"
                     style={stylebg}
-                    onClick={() => questionsqq(pantry, "question4")}
+                    onClick={() => questionsqq(illnessSignsQuestions, "question4")}
                   >
                     🎯انبار آشپرخانه
                   </button>
