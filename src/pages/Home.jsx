@@ -23,12 +23,12 @@ export default function Home() {
       {/* <WordFlipBox/> */}
     {/* <WordGameWithCategories initialCategory="زمستان" /> */}
         {/* <SylabeWords/> */}
-      <VideoCard
+      {/* <VideoCard
         title="قصه کوتاه امروز"
         description="متن فارسی داستان زیر را بخوانید."
         videoFileName={`${process.env.PUBLIC_URL}/video/fox&crew.mp4`}  // فقط اسم فایل ویدیوی mp4
-      />
-    <StoryPage3 groupKey="alefba" wantedTitle="2-لیا و سوت زدن" />
+      /> */}
+    <StoryPage3 groupKey="alefba" wantedTitle="پیکو مِهرَبان" />
     {/* <MatchingLettersPicturs/> */}
     {/* <BrokenGlass/> */}
     {/* <BouncingBalls/> */}
