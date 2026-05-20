@@ -28,7 +28,7 @@ export default function Home() {
         description="متن فارسی داستان زیر را بخوانید."
         videoFileName={`${process.env.PUBLIC_URL}/video/fox&crew.mp4`}  // فقط اسم فایل ویدیوی mp4
       /> */}
-    <StoryPage3 groupKey="alefba" wantedTitle="پیکو مِهرَبان" />
+    <StoryPage3 groupKey="alefba" wantedTitle="کَفّاش" />
     {/* <MatchingLettersPicturs/> */}
     {/* <BrokenGlass/> */}
     {/* <BouncingBalls/> */}
