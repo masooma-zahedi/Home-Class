@@ -13,6 +13,7 @@ import { SylabeWords } from "../sections/alphabet/SylabeWords";
 import WordGameWithCategories from "../sections/alphabet/WordGameWithCategories";
 import SentenceObject from "../sections/word/SentenceObject";
 import TypingImageText from "../sections/word/TypingImageText";
+import SentenceBuilder from "../sections/word/SentenceBuilder";
 
 export default function Home() {
   return (<>
@@ -21,6 +22,7 @@ export default function Home() {
       {/* <SentenceObject/> */}
       {/* <TypingImageText/> */}
       {/* <WordFlipBox/> */}
+      <SentenceBuilder/>
     {/* <WordGameWithCategories initialCategory="زمستان" /> */}
         {/* <SylabeWords/> */}
       {/* <VideoCard
