@@ -19,10 +19,10 @@ export default function Home() {
   return (<>
   <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #1a2099ff"}}>بچه ها داستان زیر را بخوانند و از روی 5 جمله آن بنویسند .</h4>
       {/* <ObjectSentenceGame/> */}
-      {/* <SentenceObject/> */}
+      <SentenceObject/>
       {/* <TypingImageText/> */}
       {/* <WordFlipBox/> */}
-      <SentenceBuilder/>
+      {/* <SentenceBuilder/> */}
     {/* <WordGameWithCategories initialCategory="زمستان" /> */}
         {/* <SylabeWords/> */}
       {/* <VideoCard
@@ -30,7 +30,7 @@ export default function Home() {
         description="متن فارسی داستان زیر را بخوانید."
         videoFileName={`${process.env.PUBLIC_URL}/video/fox&crew.mp4`}  // فقط اسم فایل ویدیوی mp4
       /> */}
-    <StoryPage3 groupKey="alefba" wantedTitle="کَفّاش" />
+    {/* <StoryPage3 groupKey="alefba" wantedTitle="کَفّاش" /> */}
     {/* <MatchingLettersPicturs/> */}
     {/* <BrokenGlass/> */}
     {/* <BouncingBalls/> */}

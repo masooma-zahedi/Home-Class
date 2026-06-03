@@ -406,11 +406,11 @@ const lessonGroups = [
     //   ]
     // },
     // جملات فعالیت ها4
-    {
-      title: " فعالیت 4",
-      imgSide:"https://static.vecteezy.com/system/resources/previews/045/880/923/non_2x/little-boy-having-good-idea-a-bubble-with-idea-lamp-sign-isolated-on-white-background-vector.jpg",
-      slides:createNewData(action4 || [])
-    },
+    // {
+    //   title: " فعالیت 4",
+    //   imgSide:"https://static.vecteezy.com/system/resources/previews/045/880/923/non_2x/little-boy-having-good-idea-a-bubble-with-idea-lamp-sign-isolated-on-white-background-vector.jpg",
+    //   slides:createNewData(action4 || [])
+    // },
     // طبیعت
     // {
     //   title: "طبیعت",
@@ -600,7 +600,82 @@ const lessonGroups = [
 //       ]
 //     }
 //   ]
-// }
+// },
+
+// وسیله های نقلیه
+{
+  title: "وَسایِلِ نَقلیِه",
+  imgSide:"https://static.vecteezy.com/system/resources/previews/045/880/923/non_2x/little-boy-having-good-idea-a-bubble-with-idea-lamp-sign-isolated-on-white-background-vector.jpg",
+  slides: [
+    {
+      sentence: "کِشتی رویِ دَریا بود.",
+      words: [
+        { text: "کِشتی", pronunciation: "keshti", image: "https://t3.ftcdn.net/jpg/09/76/66/42/360_F_976664297_6C3ne9ZIvqVRtaGWUH5HfIXmLLyXfL8i.jpg", translation: "Ship" },
+        { text: "دَریا", pronunciation: "daryā", image: "https://img.magnific.com/premium-vector/background-rocky-beach-artistic-illustration-showcasing-rugged-beauty-rocky-beach-landscape-with-wild-nature-vector-illustration_198565-8002.jpg", translation: "Sea" },
+      ]
+    },
+    {
+      sentence: "قایِق رویِ آب حَرَکَت کَرد.",
+      words: [
+        { text: "قایِق", pronunciation: "qāyeq", image: "https://png.pngtree.com/png-vector/20250429/ourmid/pngtree-cute-cartoon-sailing-boat-clipart-png-image_16150450.png", translation: "Boat" },
+        { text: "آب", pronunciation: "āb", image: "https://images.stockcake.com/public/2/6/c/26c1be4f-4234-4412-86b7-d5039c1f4114_large/happy-water-drop-stockcake.jpg", translation: "Water" },
+      ]
+    },
+    {
+      sentence: "ماشین سُرخ سَریع بود.",
+      words: [
+        { text: "ماشین", pronunciation: "māshin", image: "https://media.craiyon.com/2025-05-19/8J9JHtvQRe6J_Dgc3g2Heg.webp", translation: "Car" },
+      ]
+    },
+    {
+      sentence: "اُتوبوس دانِش‌آموزان را بُرد.",
+      words: [
+        { text: "اُتوبوس", pronunciation: "otobus", image: "https://png.pngtree.com/png-clipart/20241007/original/pngtree-smiling-cartoon-school-bus-clipart-illustration---free-png-image_16230826.png", translation: "Bus" },
+        { text: "دانِش‌آموز", pronunciation: "dānesh-āmuz", image: "https://i.pinimg.com/474x/56/76/f1/5676f1b5d20801d9d5d8a03074c515fc.jpg", translation: "Student" },
+      ]
+    },
+    {
+      sentence: "مَن با دوچَرخِه بِه پارک رَفتَم.",
+      words: [
+        { text: "دوچَرخِه", pronunciation: "docharkhe", image: "https://png.pngtree.com/png-vector/20241116/ourmid/pngtree-cartoon-blue-bicycle-clipart-illustration-png-image_14453567.png", translation: "Bicycle" },
+        { text: "پارک", pronunciation: "pārk", image: "https://static.vecteezy.com/system/resources/previews/008/414/437/non_2x/children-playground-with-swings-slide-climbing-ladders-and-more-in-the-amusement-park-for-little-ones-to-play-in-flat-cartoon-illustration-vector.jpg", translation: "Park" },
+      ]
+    },
+    {
+      sentence: "موتور صِدایِ بُلَندی داشت.",
+      words: [
+        { text: "موتور", pronunciation: "motor", image: "https://www.clker.com/cliparts/e/6/4/c/11970861871447741097Gerald_G_Motorcycle_Clipart.svg.hi.png", translation: "Motorcycle" },
+      ]
+    },
+    {
+      sentence: "قَطار اَز ایستگاه عُبور کَرد.",
+      words: [
+        { text: "قَطار", pronunciation: "qetār", image: "https://media.tenor.com/Jwum1Mib2S8AAAAe/train-carrying-kids-and-mother%27s-are-waiting-for-them.png", translation: "Train" },
+        { text: "ایستگاه", pronunciation: "istgāh", image: "https://static.vecteezy.com/system/resources/previews/063/196/407/non_2x/a-cartoon-illustration-of-a-railway-station-vector.jpg", translation: " station" },
+      ]
+    },
+    {
+      sentence: "تاکسی مُسافِر را رِساند.",
+      words: [
+        { text: "تاکسی", pronunciation: "tāksi", image: "https://t3.ftcdn.net/jpg/04/74/98/04/360_F_474980460_iR8TN3ev27lpeg8tZVu1plboDfew2j5W.jpg", translation: "Taxi" },
+        { text: "مُسافِر", pronunciation: "mosāfer", image: "https://www.shutterstock.com/image-vector/woman-talking-taxi-driver-passenger-260nw-2240498549.jpg", translation: "Passenger" },
+      ]
+    },
+    {
+      sentence: "کامیون بارِ سَنگین حَمل می‌کَرد.",
+      words: [
+        { text: "کامیون", pronunciation: "kāmyun", image: "https://static.vecteezy.com/system/resources/thumbnails/013/361/454/small/old-pickup-truck-cartoon-vector.jpg", translation: "Truck" },
+        { text: "بار", pronunciation: "bār", image: "https://img.magnific.com/free-vector/container-truck-with-cargo-transportation-concept_1308-90832.jpg?semt=ais_hybrid&w=740&q=80", translation: "Cargo" },
+      ]
+    },
+    {
+      sentence: "مَن وَسیلِه‌هایِ نَقلیِه را دوست دارَم.",
+      words: [
+      ]
+    }
+  ]
+},
+
 
 
 
