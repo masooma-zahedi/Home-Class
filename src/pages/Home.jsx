@@ -17,7 +17,7 @@ import SentenceBuilder from "../sections/word/SentenceBuilder";
 
 export default function Home() {
   return (<>
-  <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #1a2099ff"}}>بچه ها داستان زیر را بخوانند و از روی 3 جمله آن بنویسند .</h4>
+  <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #1a2099ff"}}>بچه ها داستان زیر را بخوانند و از روی جمله های زیر عکس یکبار بنویسند .</h4>
       {/* <ObjectSentenceGame/> */}
       {/* <SentenceObject/> */}
       {/* <TypingImageText/> */}
