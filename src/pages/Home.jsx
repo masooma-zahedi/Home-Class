@@ -14,6 +14,7 @@ import WordGameWithCategories from "../sections/alphabet/WordGameWithCategories"
 import SentenceObject from "../sections/word/SentenceObject";
 import TypingImageText from "../sections/word/TypingImageText";
 import SentenceBuilder from "../sections/word/SentenceBuilder";
+import SyllableAppwithCategory from "../sections/alphabet/SyllableAppwithCategory";
 
 export default function Home() {
   return (<>
@@ -31,6 +32,7 @@ export default function Home() {
         videoFileName={`${process.env.PUBLIC_URL}/video/fox&crew.mp4`}  // فقط اسم فایل ویدیوی mp4
       /> */}
     <StoryPage3 groupKey="alefba" wantedTitle="تابِستانِ گَرمِ مَن" />
+    <SyllableAppwithCategory category="ق"/>
     {/* <MatchingLettersPicturs/> */}
     {/* <BrokenGlass/> */}
     {/* <BouncingBalls/> */}
