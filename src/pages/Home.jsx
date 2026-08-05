@@ -20,7 +20,7 @@ import ChooseWords from "../sections/alphabet/ChooseWords";
 
 export default function Home() {
   return (<>
-  <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #1a2099ff"}}>بچه ها داستان زیر را بخوانند و از روی کلمات آن با معنی انگلیسی دو بار بنویسند .</h4>
+  <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #1a2099ff"}}>بچه ها داستان زیر را بخوانند و از روی 5 جمله آن بنویسند .</h4>
       {/* <ObjectSentenceGame/> */}
       {/* <SentenceObject/> */}
       {/* <TypingImageText/> */}
@@ -32,10 +32,10 @@ export default function Home() {
         description="متن فارسی داستان زیر را بخوانید."
         videoFileName={`${process.env.PUBLIC_URL}/video/fox&crew.mp4`}  // فقط اسم فایل ویدیوی mp4
       /> */}
-    <StoryPage3 groupKey="alefba" wantedTitle="خارپُشت وَ پاییز" />
-    <WordGameWithCategories initialCategory="فروشگاه" />
+    <StoryPage3 groupKey="alefba" wantedTitle="کُمَک بِهتَر اَز خَندَه‌س" />
+    {/* <WordGameWithCategories initialCategory="فروشگاه" /> */}
     <ChooseWords/>
-    <MatchGame/>
+    {/* <MatchGame/> */}
     {/* <SyllableAppwithCategory category="ق"/> */}
     {/* <MatchingLettersPicturs/> */}
     {/* <BrokenGlass/> */}
