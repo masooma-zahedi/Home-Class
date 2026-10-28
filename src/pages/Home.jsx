@@ -17,11 +17,13 @@ import SentenceBuilder from "../sections/word/SentenceBuilder";
 import SyllableAppwithCategory from "../sections/alphabet/SyllableAppwithCategory";
 import MatchGame from "../sections/alphabet/MatchGame";
 import ChooseWords from "../sections/alphabet/ChooseWords";
+import BalloonGame from "../sections/alphabet/BalloonGame";
+
 
 export default function Home() {
   return (<>
-  {/* <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #1a2099ff"}}>بچه ها داستان زیر را بخوانند و از روی 4 جمله آن یک بار بنویسند .</h4> */}
-  <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #1a2099ff"}}>بچه ها داستان زیر را بخوانند وکلمات آن  با معنی دو بار بنویسند .</h4>
+  <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #1a2099ff"}}>بچه ها داستان زیر را بخوانند و از روی 4 جمله آن یک بار بنویسند .</h4>
+  {/* <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #1a2099ff"}}>بچه ها داستان زیر را بخوانند وکلمات آن  با معنی دو بار بنویسند .</h4> */}
       {/* <SentenceObject/> */}
       {/* <TypingImageText/> */}
       {/* <WordFlipBox/> */}
@@ -31,8 +33,9 @@ export default function Home() {
         description="متن فارسی داستان زیر را بخوانید."
         videoFileName={`${process.env.PUBLIC_URL}/video/fox&crew.mp4`}  // فقط اسم فایل ویدیوی mp4
         /> */}
-    <StoryPage3 groupKey="alefba" wantedTitle="نوبَتِ تاب‌بازی" />
-      <ObjectSentenceGame/>
+    <StoryPage3 groupKey="alefba" wantedTitle="وَقتِ خواب" />
+    <BalloonGame/>
+      {/* <ObjectSentenceGame/> */}
     {/* <ChooseWords/> */}
         {/* <SentenceBuilder/> */}
     {/* <WordGameWithCategories initialCategory="وسایل مدرسه" /> */}
