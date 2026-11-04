@@ -18,6 +18,7 @@ import SyllableAppwithCategory from "../sections/alphabet/SyllableAppwithCategor
 import MatchGame from "../sections/alphabet/MatchGame";
 import ChooseWords from "../sections/alphabet/ChooseWords";
 import BalloonGame from "../sections/alphabet/BalloonGame";
+import PersianMahjong from "../sections/alphabet/PersianMahjong";
 
 
 export default function Home() {
@@ -33,8 +34,8 @@ export default function Home() {
         description="متن فارسی داستان زیر را بخوانید."
         videoFileName={`${process.env.PUBLIC_URL}/video/fox&crew.mp4`}  // فقط اسم فایل ویدیوی mp4
         /> */}
-    <StoryPage3 groupKey="alefba" wantedTitle="وَقتِ خواب" />
-    <BalloonGame/>
+    <StoryPage3 groupKey="alefba" wantedTitle="قَهرِ کُوچَک" />
+    {/* <BalloonGame/> */}
       {/* <ObjectSentenceGame/> */}
     {/* <ChooseWords/> */}
         {/* <SentenceBuilder/> */}
@@ -44,7 +45,7 @@ export default function Home() {
     {/* <MatchingLettersPicturs/> */}
     {/* <BrokenGlass/> */}
     {/* <BouncingBalls/> */}
-
+      <PersianMahjong/>
     <div className="container  mt-4" dir="rtl">
        <DragWriteBoxWithGuides width={840} height={520} showGuides={true} downloadName="persian_practice.png" textTitle="آیلین و ستایش اسم و فامیل خود را تمرین کنند."/>
     </div>
