@@ -19,11 +19,12 @@ import MatchGame from "../sections/alphabet/MatchGame";
 import ChooseWords from "../sections/alphabet/ChooseWords";
 import BalloonGame from "../sections/alphabet/BalloonGame";
 import PersianMahjong from "../sections/alphabet/PersianMahjong";
+import TypingQAImageSlider from "../sections/word/TypingQAImageSlider";
 
 
 export default function Home() {
   return (<>
-  <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #1a2099ff"}}>بچه ها داستان زیر را بخوانند و از روی 4 جمله آن یک بار بنویسند .</h4>
+  <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #1a2099ff"}}>بچه ها جملات زیر را بخوانند و از روی 4 جمله آن یک بار بنویسند .</h4>
   {/* <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #1a2099ff"}}>بچه ها داستان زیر را بخوانند وکلمات آن  با معنی دو بار بنویسند .</h4> */}
       {/* <SentenceObject/> */}
       {/* <TypingImageText/> */}
@@ -34,7 +35,8 @@ export default function Home() {
         description="متن فارسی داستان زیر را بخوانید."
         videoFileName={`${process.env.PUBLIC_URL}/video/fox&crew.mp4`}  // فقط اسم فایل ویدیوی mp4
         /> */}
-    <StoryPage3 groupKey="alefba" wantedTitle="قَهرِ کُوچَک" />
+    {/* <StoryPage3 groupKey="alefba" wantedTitle="قَهرِ کُوچَک" /> */}
+    <TypingQAImageSlider/>
     {/* <BalloonGame/> */}
       {/* <ObjectSentenceGame/> */}
     {/* <ChooseWords/> */}
@@ -45,7 +47,7 @@ export default function Home() {
     {/* <MatchingLettersPicturs/> */}
     {/* <BrokenGlass/> */}
     {/* <BouncingBalls/> */}
-      <PersianMahjong/>
+      {/* <PersianMahjong/> */}
     <div className="container  mt-4" dir="rtl">
        <DragWriteBoxWithGuides width={840} height={520} showGuides={true} downloadName="persian_practice.png" textTitle="آیلین و ستایش اسم و فامیل خود را تمرین کنند."/>
     </div>
