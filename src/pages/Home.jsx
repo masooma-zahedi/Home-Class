@@ -26,7 +26,7 @@ export default function Home() {
   return (<>
   <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #1a2099ff"}}>بچه ها جملات زیر را بخوانند و از روی 4 جمله آن یک بار بنویسند .</h4>
   {/* <h4 className="bg-warning p-2 text-center rounded my-2 mx-1" style={{color:" #1a2099ff"}}>بچه ها داستان زیر را بخوانند وکلمات آن  با معنی دو بار بنویسند .</h4> */}
-      {/* <SentenceObject/> */}
+      <SentenceObject/>
       {/* <TypingImageText/> */}
       {/* <WordFlipBox/> */}
         {/* <SylabeWords/> */}
@@ -36,7 +36,7 @@ export default function Home() {
         videoFileName={`${process.env.PUBLIC_URL}/video/fox&crew.mp4`}  // فقط اسم فایل ویدیوی mp4
         /> */}
     {/* <StoryPage3 groupKey="alefba" wantedTitle="قَهرِ کُوچَک" /> */}
-    <TypingQAImageSlider/>
+    {/* <TypingQAImageSlider/> */}
     {/* <BalloonGame/> */}
       {/* <ObjectSentenceGame/> */}
     {/* <ChooseWords/> */}

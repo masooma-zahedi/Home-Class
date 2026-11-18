@@ -603,79 +603,238 @@ const lessonGroups = [
 // },
 
 // وسیله های نقلیه
+// {
+//   title: "وَسایِلِ نَقلیِه",
+//   imgSide:"https://static.vecteezy.com/system/resources/previews/045/880/923/non_2x/little-boy-having-good-idea-a-bubble-with-idea-lamp-sign-isolated-on-white-background-vector.jpg",
+//   slides: [
+//     {
+//       sentence: "کِشتی رویِ دَریا بود.",
+//       words: [
+//         { text: "کِشتی", pronunciation: "keshti", image: "https://t3.ftcdn.net/jpg/09/76/66/42/360_F_976664297_6C3ne9ZIvqVRtaGWUH5HfIXmLLyXfL8i.jpg", translation: "Ship" },
+//         { text: "دَریا", pronunciation: "daryā", image: "https://img.magnific.com/premium-vector/background-rocky-beach-artistic-illustration-showcasing-rugged-beauty-rocky-beach-landscape-with-wild-nature-vector-illustration_198565-8002.jpg", translation: "Sea" },
+//       ]
+//     },
+//     {
+//       sentence: "قایِق رویِ آب حَرَکَت کَرد.",
+//       words: [
+//         { text: "قایِق", pronunciation: "qāyeq", image: "https://png.pngtree.com/png-vector/20250429/ourmid/pngtree-cute-cartoon-sailing-boat-clipart-png-image_16150450.png", translation: "Boat" },
+//         { text: "آب", pronunciation: "āb", image: "https://images.stockcake.com/public/2/6/c/26c1be4f-4234-4412-86b7-d5039c1f4114_large/happy-water-drop-stockcake.jpg", translation: "Water" },
+//       ]
+//     },
+//     {
+//       sentence: "ماشین سُرخ سَریع بود.",
+//       words: [
+//         { text: "ماشین", pronunciation: "māshin", image: "https://media.craiyon.com/2025-05-19/8J9JHtvQRe6J_Dgc3g2Heg.webp", translation: "Car" },
+//       ]
+//     },
+//     {
+//       sentence: "اُتوبوس دانِش‌آموزان را بُرد.",
+//       words: [
+//         { text: "اُتوبوس", pronunciation: "otobus", image: "https://png.pngtree.com/png-clipart/20241007/original/pngtree-smiling-cartoon-school-bus-clipart-illustration---free-png-image_16230826.png", translation: "Bus" },
+//         { text: "دانِش‌آموز", pronunciation: "dānesh-āmuz", image: "https://i.pinimg.com/474x/56/76/f1/5676f1b5d20801d9d5d8a03074c515fc.jpg", translation: "Student" },
+//       ]
+//     },
+//     {
+//       sentence: "مَن با دوچَرخِه بِه پارک رَفتَم.",
+//       words: [
+//         { text: "دوچَرخِه", pronunciation: "docharkhe", image: "https://png.pngtree.com/png-vector/20241116/ourmid/pngtree-cartoon-blue-bicycle-clipart-illustration-png-image_14453567.png", translation: "Bicycle" },
+//         { text: "پارک", pronunciation: "pārk", image: "https://static.vecteezy.com/system/resources/previews/008/414/437/non_2x/children-playground-with-swings-slide-climbing-ladders-and-more-in-the-amusement-park-for-little-ones-to-play-in-flat-cartoon-illustration-vector.jpg", translation: "Park" },
+//       ]
+//     },
+//     {
+//       sentence: "موتور صِدایِ بُلَندی داشت.",
+//       words: [
+//         { text: "موتور", pronunciation: "motor", image: "https://www.clker.com/cliparts/e/6/4/c/11970861871447741097Gerald_G_Motorcycle_Clipart.svg.hi.png", translation: "Motorcycle" },
+//       ]
+//     },
+//     {
+//       sentence: "قَطار اَز ایستگاه عُبور کَرد.",
+//       words: [
+//         { text: "قَطار", pronunciation: "qetār", image: "https://media.tenor.com/Jwum1Mib2S8AAAAe/train-carrying-kids-and-mother%27s-are-waiting-for-them.png", translation: "Train" },
+//         { text: "ایستگاه", pronunciation: "istgāh", image: "https://static.vecteezy.com/system/resources/previews/063/196/407/non_2x/a-cartoon-illustration-of-a-railway-station-vector.jpg", translation: " station" },
+//       ]
+//     },
+//     {
+//       sentence: "تاکسی مُسافِر را رِساند.",
+//       words: [
+//         { text: "تاکسی", pronunciation: "tāksi", image: "https://t3.ftcdn.net/jpg/04/74/98/04/360_F_474980460_iR8TN3ev27lpeg8tZVu1plboDfew2j5W.jpg", translation: "Taxi" },
+//         { text: "مُسافِر", pronunciation: "mosāfer", image: "https://www.shutterstock.com/image-vector/woman-talking-taxi-driver-passenger-260nw-2240498549.jpg", translation: "Passenger" },
+//       ]
+//     },
+//     {
+//       sentence: "کامیون بارِ سَنگین حَمل می‌کَرد.",
+//       words: [
+//         { text: "کامیون", pronunciation: "kāmyun", image: "https://static.vecteezy.com/system/resources/thumbnails/013/361/454/small/old-pickup-truck-cartoon-vector.jpg", translation: "Truck" },
+//         { text: "بار", pronunciation: "bār", image: "https://img.magnific.com/free-vector/container-truck-with-cargo-transportation-concept_1308-90832.jpg?semt=ais_hybrid&w=740&q=80", translation: "Cargo" },
+//       ]
+//     },
+//     {
+//       sentence: "مَن وَسیلِه‌هایِ نَقلیِه را دوست دارَم.",
+//       words: [
+//       ]
+//     }
+//   ]
+// },
 {
-  title: "وَسایِلِ نَقلیِه",
-  imgSide:"https://static.vecteezy.com/system/resources/previews/045/880/923/non_2x/little-boy-having-good-idea-a-bubble-with-idea-lamp-sign-isolated-on-white-background-vector.jpg",
+  title: "اِحساس دوست داشتن چیزها",
+  imgSide: "https://i.etsystatic.com/17675358/r/il/4f6b82/3333354780/il_570xN.3333354780_m3eu.jpg",
   slides: [
     {
-      sentence: "کِشتی رویِ دَریا بود.",
+      sentence: "مَن بَستَنی دوست دارَم چون سَرد و خُوشمَزِه اَست.",
       words: [
-        { text: "کِشتی", pronunciation: "keshti", image: "https://t3.ftcdn.net/jpg/09/76/66/42/360_F_976664297_6C3ne9ZIvqVRtaGWUH5HfIXmLLyXfL8i.jpg", translation: "Ship" },
-        { text: "دَریا", pronunciation: "daryā", image: "https://img.magnific.com/premium-vector/background-rocky-beach-artistic-illustration-showcasing-rugged-beauty-rocky-beach-landscape-with-wild-nature-vector-illustration_198565-8002.jpg", translation: "Sea" },
+        {
+          text: "بستنی",
+          pronunciation: "bastani",
+          image: "https://t3.ftcdn.net/jpg/16/61/23/98/360_F_1661239812_0kVT1F4OOTQKtER5aeUm5E3shmyH4rZX.jpg",
+          translation: "ice cream"
+        }
       ]
     },
     {
-      sentence: "قایِق رویِ آب حَرَکَت کَرد.",
+      sentence: "مَن پیتزا را بیشتَر اَز هَمبِرگِر دوست دارَم چون خِیلی خُوشمَزِه اَست.",
       words: [
-        { text: "قایِق", pronunciation: "qāyeq", image: "https://png.pngtree.com/png-vector/20250429/ourmid/pngtree-cute-cartoon-sailing-boat-clipart-png-image_16150450.png", translation: "Boat" },
-        { text: "آب", pronunciation: "āb", image: "https://images.stockcake.com/public/2/6/c/26c1be4f-4234-4412-86b7-d5039c1f4114_large/happy-water-drop-stockcake.jpg", translation: "Water" },
+        {
+          text: "پیتزا",
+          pronunciation: "pizza",
+          image: "https://thumbs.dreamstime.com/b/cheerful-cartoon-pepperoni-pizza-slice-animated-face-kitchen-image-generated-using-ai-367277425.jpg",
+          translation: "pizza"
+        }
       ]
     },
     {
-      sentence: "ماشین سُرخ سَریع بود.",
+      sentence: "مَن کِیک دوست دارَم، مُخصوصاً کِیکِ شُکُلاتی را خِیلی دوست دارَم.",
       words: [
-        { text: "ماشین", pronunciation: "māshin", image: "https://media.craiyon.com/2025-05-19/8J9JHtvQRe6J_Dgc3g2Heg.webp", translation: "Car" },
+        {
+          text: "کیک",
+          pronunciation: "cake",
+          image: "https://c8.alamy.com/comp/2PWHX9X/birthday-cake-with-cream-chocolate-and-candles-cartoon-vector-illustration-delicious-chocolate-cake-or-pie-isolated-on-white-background-2PWHX9X.jpg",
+          translation: "cake"
+        }
       ]
     },
     {
-      sentence: "اُتوبوس دانِش‌آموزان را بُرد.",
+      sentence: "مَن شُکُلات دوست دارَم، وَلی زیاد نِمی‌خورَم.",
       words: [
-        { text: "اُتوبوس", pronunciation: "otobus", image: "https://png.pngtree.com/png-clipart/20241007/original/pngtree-smiling-cartoon-school-bus-clipart-illustration---free-png-image_16230826.png", translation: "Bus" },
-        { text: "دانِش‌آموز", pronunciation: "dānesh-āmuz", image: "https://i.pinimg.com/474x/56/76/f1/5676f1b5d20801d9d5d8a03074c515fc.jpg", translation: "Student" },
+        {
+          text: "شکلات",
+          pronunciation: "chocolate",
+          image: "https://png.pngtree.com/png-clipart/20250127/original/pngtree-cheerful-chocolate-bar-cartoon-png-image_20055294.png",
+          translation: "chocolate"
+        }
       ]
     },
     {
-      sentence: "مَن با دوچَرخِه بِه پارک رَفتَم.",
+      sentence: "مَن سیب دوست دارَم، چون سیب سالِم و شیرین اَست.",
       words: [
-        { text: "دوچَرخِه", pronunciation: "docharkhe", image: "https://png.pngtree.com/png-vector/20241116/ourmid/pngtree-cartoon-blue-bicycle-clipart-illustration-png-image_14453567.png", translation: "Bicycle" },
-        { text: "پارک", pronunciation: "pārk", image: "https://static.vecteezy.com/system/resources/previews/008/414/437/non_2x/children-playground-with-swings-slide-climbing-ladders-and-more-in-the-amusement-park-for-little-ones-to-play-in-flat-cartoon-illustration-vector.jpg", translation: "Park" },
+        {
+          text: "سیب",
+          pronunciation: "sib",
+          image: "https://static.vecteezy.com/system/resources/previews/039/656/779/non_2x/ai-generated-red-apple-cartoon-clip-art-free-png.png",
+          translation: "apple"
+        }
       ]
     },
     {
-      sentence: "موتور صِدایِ بُلَندی داشت.",
+      sentence: "مَن خوردَنِ شیر را صُبح‌ها دوست دارَم، وَلی هَر روز شیر نِمی‌خورَم.",
       words: [
-        { text: "موتور", pronunciation: "motor", image: "https://www.clker.com/cliparts/e/6/4/c/11970861871447741097Gerald_G_Motorcycle_Clipart.svg.hi.png", translation: "Motorcycle" },
+        {
+          text: "شیر",
+          pronunciation: "shir",
+          image: "https://static.vecteezy.com/system/resources/thumbnails/008/390/389/small/cartoon-milk-box-holding-a-glass-of-milk-free-vector.jpg",
+          translation: "milk"
+        }
       ]
     },
     {
-      sentence: "قَطار اَز ایستگاه عُبور کَرد.",
+      sentence: "مَن بُروکلی را زیاد دوست نَدارَم، چون مَزِه‌اَش خوب نیست.",
       words: [
-        { text: "قَطار", pronunciation: "qetār", image: "https://media.tenor.com/Jwum1Mib2S8AAAAe/train-carrying-kids-and-mother%27s-are-waiting-for-them.png", translation: "Train" },
-        { text: "ایستگاه", pronunciation: "istgāh", image: "https://static.vecteezy.com/system/resources/previews/063/196/407/non_2x/a-cartoon-illustration-of-a-railway-station-vector.jpg", translation: " station" },
+        {
+          text: "بروکلی",
+          pronunciation: "broccoli",
+          image: "https://www.publicdomainpictures.net/pictures/660000/nahled/happy-broccoli-cartoon-art-1734255633uOJ.jpg",
+          translation: "broccoli"
+        }
       ]
     },
     {
-      sentence: "تاکسی مُسافِر را رِساند.",
+      sentence: "مَن گُربه دوست دارَم چون نَرم و بامَزِه اَست.",
       words: [
-        { text: "تاکسی", pronunciation: "tāksi", image: "https://t3.ftcdn.net/jpg/04/74/98/04/360_F_474980460_iR8TN3ev27lpeg8tZVu1plboDfew2j5W.jpg", translation: "Taxi" },
-        { text: "مُسافِر", pronunciation: "mosāfer", image: "https://www.shutterstock.com/image-vector/woman-talking-taxi-driver-passenger-260nw-2240498549.jpg", translation: "Passenger" },
+        {
+          text: "گربه",
+          pronunciation: "gorbe",
+          image: "https://i.pinimg.com/736x/79/9a/46/799a46214f9c001449da0c4d13545476.jpg",
+          translation: "cat"
+        }
       ]
     },
     {
-      sentence: "کامیون بارِ سَنگین حَمل می‌کَرد.",
+      sentence: "مَن فوتبال را بیشتَر اَز بَسکِتبال دوست دارَم چون هَیَجان‌اَنگیز اَست.",
       words: [
-        { text: "کامیون", pronunciation: "kāmyun", image: "https://static.vecteezy.com/system/resources/thumbnails/013/361/454/small/old-pickup-truck-cartoon-vector.jpg", translation: "Truck" },
-        { text: "بار", pronunciation: "bār", image: "https://img.magnific.com/free-vector/container-truck-with-cargo-transportation-concept_1308-90832.jpg?semt=ais_hybrid&w=740&q=80", translation: "Cargo" },
+        {
+          text: "فوتبال",
+          pronunciation: "football / soccer",
+          image: "https://thumbs.dreamstime.com/z/two-soccer-players-playing-field-scoring-goal-vector-cartoon-illustration-children-sports-theme-224882235.jpg",
+          translation: "soccer / football"
+        }
       ]
     },
     {
-      sentence: "مَن وَسیلِه‌هایِ نَقلیِه را دوست دارَم.",
+      sentence: "مَن شِنا دوست دارَم، چون دَر آب بازی کَردَن، لِذَّت‌بَخش اَست.",
       words: [
+        {
+          text: "شنا",
+          pronunciation: "shenā",
+          image: "https://thumbs.dreamstime.com/b/cheerful-active-kids-swimming-pool-sport-team-vector-illustration-136015280.jpg",
+          translation: "swimming"
+        }
+      ]
+    },
+    {
+      sentence: "مَن نَقّاشی کَردَن را دوست دارَم چون می‌تَوانَم چیزهایِ قَشَنگ بِکِشَم.",
+      words: [
+        {
+          text: "نقاشی",
+          pronunciation: "naghashi",
+          image: "https://img.pikbest.com/wp/202406/drawing-cartoon-how-to-draw-a-using-basic-techniques_9603866.jpg!sw800",
+          translation: "drawing"
+        }
+      ]
+    },
+    {
+      sentence: "مَن کارتون دیدَن را دوست دارَم، مَخصوصاً وَقتی مَن خَستِه‌اَم.",
+      words: [
+        {
+          text: "کارتون",
+          pronunciation: "cartoon",
+          image: "https://images.stockcake.com/public/f/e/2/fe21ba76-b882-4532-8990-99a06d29f064/magical-screen-time-stockcake.jpg",
+          translation: "cartoons"
+        }
+      ]
+    },
+    {
+      sentence: "مَن پارک را دوست دارَم چون می‌تَوانَم بِدَوَم و بَازی کُنَم.",
+      words: [
+        {
+          text: "پارک",
+          pronunciation: "park",
+          image: "https://media.easy-peasy.ai/7cb9f18d-0739-42cc-b247-efeab6420e48/bb3e26c2-e661-4277-af37-fccb1fe328b6.png",
+          translation: "park"
+        }
+      ]
+    },
+    {
+      sentence: "مَن مَدرَسه را دوست دارَم چون دوستانَم را آنجا می بینَم.",
+      words: [
+        {
+          text: "مدرسه",
+          pronunciation: "madrese",
+          image: "https://images.unsplash.com/photo-1509062522246-3755977927d7",
+          translation: "school"
+        }
       ]
     }
   ]
 },
-
 
 
 
